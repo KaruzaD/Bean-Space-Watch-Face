@@ -1,0 +1,32 @@
+<drawables>
+    <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+    
+    <bitmap id="Fox" filename="BoyFox.png"  dithering="none" />
+    <bitmap id="SpaceFox" filename="BoySpaceFox.png"  dithering="none" />
+    <bitmap id="Space" filename="Space.png"  dithering="none" />
+    
+    
+    <bitmap id="PixelHeart" filename="pixel_heart.png" dithering="none"
+        x="center" y="center">
+        <palette>
+            <color>000000</color>
+            <color>ad1c32</color>
+        </palette>
+    </bitmap>
+
+    <bitmap id="NotificationNone" filename="notification_none.png" dithering="none"
+        x="center" y="center">
+        <palette>
+            <color>000000</color>
+            <color>FFFFFF</color>
+        </palette>
+    </bitmap>
+
+    <bitmap id="NotificationNew" filename="notification_new.png" dithering="none"
+        x="center" y="center">
+        <palette>
+            <color>000000</color>
+            <color>8c28ad</color>
+        </palette>
+    </bitmap>
+</drawables>

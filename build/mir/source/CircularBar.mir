@@ -1,0 +1,298 @@
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc"; @line = 2; ]
+import Toybox.WatchUi;
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc"; @line = 3; ]
+import Toybox.Graphics;
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc"; @line = 4; ]
+import Toybox.Math;
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc"; @line = 6; ]
+class CircularBar extends WatchUi.Drawable{
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc"; @line = 7; @position = 12; ]
+    protected
+    var centerX;
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc"; @line = 8; @position = 15; ]
+    protected
+    var centerY;
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc"; @line = 10; @position = 12; ]
+    protected
+    var percent;
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc"; @line = 10; @position = 21; ]
+    protected
+    var unfilledColor;
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc"; @line = 10; @position = 36; ]
+    protected
+    var filledColor;
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc"; @line = 10; @position = 49; ]
+    protected
+    var filledColorLow;
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc"; @line = 10; @position = 65; ]
+    protected
+    var filledColorCritical;
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc"; @line = 10; @position = 86; ]
+    protected
+    var barThickness;
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc"; @line = 10; @position = 100; ]
+    protected
+    var radius;
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc"; @line = 11; @position = 12; ]
+    protected
+    var lowThreshold;
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc"; @line = 11; @position = 26; ]
+    protected
+    var criticalThreshold;
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc"; @line = 12; ]
+    function initialize(params) as Void {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_12_32_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc" 13 8 ]
+        %tmp.2 = getv ? :Drawable;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.5 = lgetv %params;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc" 15 8 ]
+        %tmp.6 = lgetv %params;
+        %tmp.7 = getv function %tmp.6 :get;
+        %tmp.9 = const :unfilledColor;
+        %tmp.10 = invoke %tmp.6 %tmp.7(%tmp.9);
+        putv self :unfilledColor %tmp.10;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc" 16 2 ]
+        %tmp.11 = lgetv %params;
+        %tmp.12 = getv function %tmp.11 :get;
+        %tmp.14 = const :filledColor;
+        %tmp.15 = invoke %tmp.11 %tmp.12(%tmp.14);
+        putv self :filledColor %tmp.15;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc" 17 2 ]
+        %tmp.16 = lgetv %params;
+        %tmp.17 = getv function %tmp.16 :get;
+        %tmp.19 = const :filledColorLow;
+        %tmp.20 = invoke %tmp.16 %tmp.17(%tmp.19);
+        putv self :filledColorLow %tmp.20;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc" 18 2 ]
+        %tmp.21 = lgetv %params;
+        %tmp.22 = getv function %tmp.21 :get;
+        %tmp.24 = const :filledColorCritical;
+        %tmp.25 = invoke %tmp.21 %tmp.22(%tmp.24);
+        putv self :filledColorCritical %tmp.25;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc" 19 8 ]
+        %tmp.26 = lgetv %params;
+        %tmp.27 = getv function %tmp.26 :get;
+        %tmp.29 = const :percent;
+        %tmp.30 = invoke %tmp.26 %tmp.27(%tmp.29);
+        putv self :percent %tmp.30;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc" 20 8 ]
+        %tmp.31 = lgetv %params;
+        %tmp.32 = getv function %tmp.31 :get;
+        %tmp.34 = const :barThickness;
+        %tmp.35 = invoke %tmp.31 %tmp.32(%tmp.34);
+        putv self :barThickness %tmp.35;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc" 21 2 ]
+        %tmp.36 = lgetv %params;
+        %tmp.37 = getv function %tmp.36 :get;
+        %tmp.39 = const :x;
+        %tmp.40 = invoke %tmp.36 %tmp.37(%tmp.39);
+        putv self :centerX %tmp.40;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc" 22 2 ]
+        %tmp.41 = lgetv %params;
+        %tmp.42 = getv function %tmp.41 :get;
+        %tmp.44 = const :y;
+        %tmp.45 = invoke %tmp.41 %tmp.42(%tmp.44);
+        putv self :centerY %tmp.45;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc" 23 8 ]
+        %tmp.46 = lgetv %params;
+        %tmp.47 = getv function %tmp.46 :get;
+        %tmp.49 = const :radius;
+        %tmp.50 = invoke %tmp.46 %tmp.47(%tmp.49);
+        putv self :radius %tmp.50;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc" 24 2 ]
+        %tmp.51 = lgetv %params;
+        %tmp.52 = getv function %tmp.51 :get;
+        %tmp.54 = const :lowThreshold;
+        %tmp.55 = invoke %tmp.51 %tmp.52(%tmp.54);
+        putv self :lowThreshold %tmp.55;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc" 25 2 ]
+        %tmp.56 = lgetv %params;
+        %tmp.57 = getv function %tmp.56 :get;
+        %tmp.59 = const :criticalThreshold;
+        %tmp.60 = invoke %tmp.56 %tmp.57(%tmp.59);
+        putv self :criticalThreshold %tmp.60;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_12_32_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc"; @line = 28; ]
+    function draw(dc) {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_28_22_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc" 33 2 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :setPenWidth;
+        %tmp.4 = getv ? :barThickness;
+        invoke %tmp.1 %tmp.2(%tmp.4);
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc" 34 2 ]
+        %tmp.5 = self;
+        %tmp.6 = getv function %tmp.5 :drawOutlineCircle;
+        %tmp.8 = lgetv %dc;
+        invoke %tmp.5 %tmp.6(%tmp.8);
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc" 35 8 ]
+        %tmp.9 = self;
+        %tmp.10 = getv function %tmp.9 :drawArc;
+        %tmp.12 = lgetv %dc;
+        invoke %tmp.9 %tmp.10(%tmp.12);
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_28_22_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc"; @line = 38; ]
+    function setPercent(newPercent) {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_38_36_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc" 39 5 ]
+        %tmp.2 = lgetv %newPercent;
+        putv self :percent %tmp.2;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_38_36_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc"; @line = 42; ]
+    private
+    function drawOutlineCircle(dc as Dc) as Void {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_42_54_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc" 43 2 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :setColor;
+        %tmp.4 = getv ? :unfilledColor;
+        %tmp.6 = getv ? :unfilledColor;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc" 44 2 ]
+        %tmp.7 = lgetv %dc;
+        %tmp.8 = getv function %tmp.7 :drawCircle;
+        %tmp.10 = getv ? :centerX;
+        %tmp.12 = getv ? :centerY;
+        %tmp.14 = getv ? :radius;
+        invoke %tmp.7 %tmp.8(%tmp.10, %tmp.12, %tmp.14);
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_42_54_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc"; @line = 47; ]
+    protected
+    function drawArc(dc as Dc) {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_47_38_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc" 48 5 ]
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_48_5_if_stmt:
+        %tmp.2 = getv ? :percent;
+        %tmp.3 = 0;
+        %tmp.4 = eq %tmp.2 %tmp.3;
+        bf %tmp.4 @D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_48_5_if_end;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_48_5_if_true:
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_48_23_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc" 49 3 ]
+        ret ?;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_48_23_stop:
+        goto @D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_48_5_if_end;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_48_5_if_end:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc" 52 2 ]
+        [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_47_38_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_47_38_stop" ]
+        %color.1 = local;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc" 53 2 ]
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_53_2_if_stmt:
+        %tmp.6 = getv ? :percent;
+        %tmp.8 = getv ? :criticalThreshold;
+        %tmp.9 = lte %tmp.6 %tmp.8;
+        bf %tmp.9 @D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_53_2_if_false;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_53_2_if_true:
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_53_36_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc" 54 3 ]
+        %tmp.11 = getv ? :filledColorCritical;
+        lputv %color.1 %tmp.11;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_53_36_stop:
+        goto @D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_53_2_if_end;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_53_2_if_false:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc" 55 9 ]
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_55_9_if_stmt:
+        %tmp.13 = getv ? :percent;
+        %tmp.15 = getv ? :lowThreshold;
+        %tmp.16 = lt %tmp.13 %tmp.15;
+        bf %tmp.16 @D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_55_9_if_false;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_55_9_if_true:
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_55_37_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc" 56 3 ]
+        %tmp.18 = getv ? :filledColorLow;
+        lputv %color.1 %tmp.18;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_55_37_stop:
+        goto @D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_55_9_if_end;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_55_9_if_false:
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_57_9_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc" 58 3 ]
+        %tmp.20 = getv ? :filledColor;
+        lputv %color.1 %tmp.20;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_57_9_stop:
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_55_9_if_end:
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_53_2_if_end:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc" 60 2 ]
+        %tmp.21 = lgetv %dc;
+        %tmp.22 = getv function %tmp.21 :setColor;
+        %tmp.24 = lgetv %color.1;
+        %tmp.26 = lgetv %color.1;
+        invoke %tmp.21 %tmp.22(%tmp.24, %tmp.26);
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc" 62 2 ]
+        [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_47_38_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_47_38_stop" ]
+        %degreeStart.2 = local;
+        %tmp.27 = 90;
+        lputv %degreeStart.2 %tmp.27;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc" 63 2 ]
+        [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_47_38_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_47_38_stop" ]
+        %degreeEnd.3 = local;
+        %tmp.28 = 450;
+        %tmp.29 = 360;
+        %tmp.31 = getv ? :percent;
+        %tmp.32 = mul %tmp.29 %tmp.31;
+        %tmp.33 = sub %tmp.28 %tmp.32;
+        lputv %degreeEnd.3 %tmp.33;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc" 64 2 ]
+        %tmp.34 = lgetv %dc;
+        %tmp.35 = getv function %tmp.34 :setPenWidth;
+        %tmp.37 = getv ? :barThickness;
+        %tmp.38 = 1;
+        %tmp.39 = add %tmp.37 %tmp.38;
+        invoke %tmp.34 %tmp.35(%tmp.39);
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc" 65 2 ]
+        %tmp.40 = lgetv %dc;
+        %tmp.41 = getv function %tmp.40 :drawArc;
+        %tmp.43 = getv ? :centerX;
+        %tmp.45 = getv ? :centerY;
+        %tmp.47 = getv ? :radius;
+        %tmp.48 = getm $.Toybox.Graphics;
+        %tmp.49 = getv %tmp.48 :ARC_CLOCKWISE;
+        %tmp.51 = lgetv %degreeStart.2;
+        %tmp.53 = lgetv %degreeEnd.3;
+        invoke %tmp.40 %tmp.41(%tmp.43, %tmp.45, %tmp.47, %tmp.49, %tmp.51, %tmp.53);
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_47_38_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc"; @line = 68; ]
+    protected
+    function degreesToRadians(degrees) {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_68_46_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc" 69 5 ]
+        %tmp.2 = lgetv %degrees;
+        %tmp.3 = getm $.Toybox.Math;
+        %tmp.4 = getv %tmp.3 :PI;
+        %tmp.5 = mul %tmp.2 %tmp.4;
+        %tmp.6 = 180;
+        %tmp.7 = div %tmp.5 %tmp.6;
+        ret %tmp.7;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_68_46_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc"; @line = 72; ]
+    protected
+    function radiansToDegrees(radians) {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_72_46_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc" 73 5 ]
+        %tmp.2 = lgetv %radians;
+        %tmp.3 = 180;
+        %tmp.4 = mul %tmp.2 %tmp.3;
+        %tmp.5 = getm $.Toybox.Math;
+        %tmp.6 = getv %tmp.5 :PI;
+        %tmp.7 = div %tmp.4 %tmp.6;
+        ret %tmp.7;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_CircularBar_mc_72_46_stop:
+    }
+}
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\CircularBar.mc"; @line = 2; ]
+<init> {
+}

@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="1" lineNum="7" parent="globals/HeartRate" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="2" lineNum="19" parent="globals/HeartRate" pc="268435479" symbol="onShow"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="2" lineNum="20" parent="globals/HeartRate" pc="268435481" symbol="onShow"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="2" lineNum="21" parent="globals/HeartRate" pc="268435493" symbol="onShow"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="3" lineNum="70" parent="globals/HeartRate" pc="268435506" symbol="&lt;globals/HeartRate/&lt;&gt;getText&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="3" lineNum="71" parent="globals/HeartRate" pc="268435510" symbol="&lt;globals/HeartRate/&lt;&gt;getText&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="3" lineNum="73" parent="globals/HeartRate" pc="268435538" symbol="&lt;globals/HeartRate/&lt;&gt;getText&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="3" lineNum="80" parent="globals/HeartRate" pc="268435652" symbol="&lt;globals/HeartRate/&lt;&gt;getText&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="4" lineNum="41" parent="globals/HeartRate" pc="268435676" symbol="draw"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="4" lineNum="42" parent="globals/HeartRate" pc="268435678" symbol="draw"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="4" lineNum="44" parent="globals/HeartRate" pc="268435762" symbol="draw"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="4" lineNum="46" parent="globals/HeartRate" pc="268435774" symbol="draw"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="5" lineNum="49" parent="globals/HeartRate" pc="268435795" symbol="&lt;globals/HeartRate/&lt;&gt;setHeartRateDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="5" lineNum="50" parent="globals/HeartRate" pc="268435797" symbol="&lt;globals/HeartRate/&lt;&gt;setHeartRateDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="6" lineNum="29" parent="globals/HeartRate" pc="268435827" symbol="onSettingsChanged"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="6" lineNum="30" parent="globals/HeartRate" pc="268435829" symbol="onSettingsChanged"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="6" lineNum="31" parent="globals/HeartRate" pc="268435842" symbol="onSettingsChanged"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="6" lineNum="34" parent="globals/HeartRate" pc="268435846" symbol="onSettingsChanged"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="7" lineNum="37" parent="globals/HeartRate" pc="268435859" symbol="getBitmap"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="7" lineNum="38" parent="globals/HeartRate" pc="268435861" symbol="getBitmap"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="8" lineNum="66" parent="globals/HeartRate" pc="268435909" symbol="&lt;globals/HeartRate/&lt;&gt;DoesDeviceSupportHeartrate&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="8" lineNum="67" parent="globals/HeartRate" pc="268435911" symbol="&lt;globals/HeartRate/&lt;&gt;DoesDeviceSupportHeartrate&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="9" lineNum="13" parent="globals/HeartRate" pc="268435926" symbol="initialize"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="9" lineNum="14" parent="globals/HeartRate" pc="268435928" symbol="initialize"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="9" lineNum="15" parent="globals/HeartRate" pc="268435948" symbol="initialize"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="9" lineNum="16" parent="globals/HeartRate" pc="268435972" symbol="initialize"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="10" lineNum="24" parent="globals/HeartRate" pc="268435997" symbol="onHide"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="10" lineNum="25" parent="globals/HeartRate" pc="268435999" symbol="onHide"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="10" lineNum="26" parent="globals/HeartRate" pc="268436008" symbol="onHide"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="11" lineNum="53" parent="globals/HeartRate" pc="268436018" symbol="&lt;globals/HeartRate/&lt;&gt;retrieveHeartRateString&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="11" lineNum="54" parent="globals/HeartRate" pc="268436022" symbol="&lt;globals/HeartRate/&lt;&gt;retrieveHeartRateString&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="11" lineNum="55" parent="globals/HeartRate" pc="268436039" symbol="&lt;globals/HeartRate/&lt;&gt;retrieveHeartRateString&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="11" lineNum="56" parent="globals/HeartRate" pc="268436046" symbol="&lt;globals/HeartRate/&lt;&gt;retrieveHeartRateString&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="11" lineNum="58" parent="globals/HeartRate" pc="268436055" symbol="&lt;globals/HeartRate/&lt;&gt;retrieveHeartRateString&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="11" lineNum="59" parent="globals/HeartRate" pc="268436065" symbol="&lt;globals/HeartRate/&lt;&gt;retrieveHeartRateString&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="11" lineNum="60" parent="globals/HeartRate" pc="268436072" symbol="&lt;globals/HeartRate/&lt;&gt;retrieveHeartRateString&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeartRate.mc" id="11" lineNum="63" parent="globals/HeartRate" pc="268436081" symbol="&lt;globals/HeartRate/&lt;&gt;retrieveHeartRateString&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchApp.mc" id="12" lineNum="31" parent="globals" pc="268436098" symbol="getApp"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchApp.mc" id="12" lineNum="32" parent="globals" pc="268436108" symbol="getApp"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchBackground.mc" id="13" lineNum="6" parent="globals/Background" pc="268436124" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchBackground.mc" id="13" lineNum="9" parent="globals/Background" pc="268436142" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchBackground.mc" id="14" lineNum="24" parent="globals/Background" pc="268436262" symbol="onShow"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchBackground.mc" id="14" lineNum="25" parent="globals/Background" pc="268436264" symbol="onShow"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchBackground.mc" id="15" lineNum="32" parent="globals/Background" pc="268436277" symbol="onSettingsChanged"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchBackground.mc" id="15" lineNum="33" parent="globals/Background" pc="268436279" symbol="onSettingsChanged"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchBackground.mc" id="16" lineNum="36" parent="globals/Background" pc="268436292" symbol="getBitmap"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchBackground.mc" id="16" lineNum="37" parent="globals/Background" pc="268436296" symbol="getBitmap"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchBackground.mc" id="16" lineNum="39" parent="globals/Background" pc="268436324" symbol="getBitmap"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchBackground.mc" id="16" lineNum="40" parent="globals/Background" pc="268436337" symbol="getBitmap"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchBackground.mc" id="16" lineNum="41" parent="globals/Background" pc="268436344" symbol="getBitmap"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchBackground.mc" id="16" lineNum="42" parent="globals/Background" pc="268436353" symbol="getBitmap"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchBackground.mc" id="16" lineNum="45" parent="globals/Background" pc="268436357" symbol="getBitmap"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchBackground.mc" id="17" lineNum="16" parent="globals/Background" pc="268436383" symbol="initialize"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchBackground.mc" id="17" lineNum="17" parent="globals/Background" pc="268436387" symbol="initialize"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchBackground.mc" id="17" lineNum="21" parent="globals/Background" pc="268436408" symbol="initialize"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchBackground.mc" id="18" lineNum="28" parent="globals/Background" pc="268436429" symbol="onHide"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchBackground.mc" id="18" lineNum="29" parent="globals/Background" pc="268436431" symbol="onHide"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchBackground.mc" id="19" lineNum="48" parent="globals/Background" pc="268436441" symbol="draw"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchBackground.mc" id="19" lineNum="49" parent="globals/Background" pc="268436443" symbol="draw"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchBackground.mc" id="19" lineNum="50" parent="globals/Background" pc="268436456" symbol="draw"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchBackground.mc" id="19" lineNum="51" parent="globals/Background" pc="268436499" symbol="draw"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchBackground.mc" id="19" lineNum="52" parent="globals/Background" pc="268436511" symbol="draw"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchBackground.mc" id="19" lineNum="55" parent="globals/Background" pc="268436515" symbol="draw"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchBackground.mc" id="19" lineNum="57" parent="globals/Background" pc="268436527" symbol="draw"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="20" lineNum="7" parent="globals/Rez" pc="268436558" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="21" lineNum="12" parent="globals/BeanWatchView" pc="268436582" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="22" lineNum="96" parent="globals/BeanWatchView" pc="268436601" symbol="&lt;globals/BeanWatchView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="22" lineNum="97" parent="globals/BeanWatchView" pc="268436605" symbol="&lt;globals/BeanWatchView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="22" lineNum="98" parent="globals/BeanWatchView" pc="268436618" symbol="&lt;globals/BeanWatchView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="22" lineNum="100" parent="globals/BeanWatchView" pc="268436631" symbol="&lt;globals/BeanWatchView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="22" lineNum="101" parent="globals/BeanWatchView" pc="268436650" symbol="&lt;globals/BeanWatchView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="22" lineNum="102" parent="globals/BeanWatchView" pc="268436660" symbol="&lt;globals/BeanWatchView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="22" lineNum="104" parent="globals/BeanWatchView" pc="268436670" symbol="&lt;globals/BeanWatchView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="22" lineNum="105" parent="globals/BeanWatchView" pc="268436677" symbol="&lt;globals/BeanWatchView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="22" lineNum="107" parent="globals/BeanWatchView" pc="268436687" symbol="&lt;globals/BeanWatchView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="22" lineNum="108" parent="globals/BeanWatchView" pc="268436708" symbol="&lt;globals/BeanWatchView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="22" lineNum="111" parent="globals/BeanWatchView" pc="268436718" symbol="&lt;globals/BeanWatchView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="22" lineNum="113" parent="globals/BeanWatchView" pc="268436734" symbol="&lt;globals/BeanWatchView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="22" lineNum="114" parent="globals/BeanWatchView" pc="268436741" symbol="&lt;globals/BeanWatchView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="22" lineNum="115" parent="globals/BeanWatchView" pc="268436752" symbol="&lt;globals/BeanWatchView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="22" lineNum="116" parent="globals/BeanWatchView" pc="268436759" symbol="&lt;globals/BeanWatchView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="22" lineNum="119" parent="globals/BeanWatchView" pc="268436772" symbol="&lt;globals/BeanWatchView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="22" lineNum="120" parent="globals/BeanWatchView" pc="268436786" symbol="&lt;globals/BeanWatchView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="22" lineNum="121" parent="globals/BeanWatchView" pc="268436806" symbol="&lt;globals/BeanWatchView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="23" lineNum="145" parent="globals/BeanWatchView" pc="268436866" symbol="&lt;globals/BeanWatchView/&lt;&gt;getStepCountLabel&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="23" lineNum="146" parent="globals/BeanWatchView" pc="268436868" symbol="&lt;globals/BeanWatchView/&lt;&gt;getStepCountLabel&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="25" lineNum="71" parent="globals/BeanWatchView" pc="268436895" symbol="&lt;globals/BeanWatchView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="25" lineNum="72" parent="globals/BeanWatchView" pc="268436899" symbol="&lt;globals/BeanWatchView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="25" lineNum="73" parent="globals/BeanWatchView" pc="268436916" symbol="&lt;globals/BeanWatchView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="25" lineNum="74" parent="globals/BeanWatchView" pc="268436931" symbol="&lt;globals/BeanWatchView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="25" lineNum="77" parent="globals/BeanWatchView" pc="268436946" symbol="&lt;globals/BeanWatchView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="25" lineNum="78" parent="globals/BeanWatchView" pc="268436974" symbol="&lt;globals/BeanWatchView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="25" lineNum="80" parent="globals/BeanWatchView" pc="268437002" symbol="&lt;globals/BeanWatchView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="25" lineNum="81" parent="globals/BeanWatchView" pc="268437022" symbol="&lt;globals/BeanWatchView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="25" lineNum="82" parent="globals/BeanWatchView" pc="268437042" symbol="&lt;globals/BeanWatchView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="25" lineNum="83" parent="globals/BeanWatchView" pc="268437056" symbol="&lt;globals/BeanWatchView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="26" lineNum="36" parent="globals/BeanWatchView" pc="268437071" symbol="onShow"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="26" lineNum="37" parent="globals/BeanWatchView" pc="268437073" symbol="onShow"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="26" lineNum="38" parent="globals/BeanWatchView" pc="268437094" symbol="onShow"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="26" lineNum="39" parent="globals/BeanWatchView" pc="268437115" symbol="onShow"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="27" lineNum="169" parent="globals/BeanWatchView" pc="268437137" symbol="&lt;globals/BeanWatchView/&lt;&gt;getBatteryLabel&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="27" lineNum="170" parent="globals/BeanWatchView" pc="268437139" symbol="&lt;globals/BeanWatchView/&lt;&gt;getBatteryLabel&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="28" lineNum="23" parent="globals/BeanWatchView" pc="268437166" symbol="onLayout"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="28" lineNum="27" parent="globals/BeanWatchView" pc="268437168" symbol="onLayout"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="28" lineNum="30" parent="globals/BeanWatchView" pc="268437202" symbol="onLayout"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="29" lineNum="165" parent="globals/BeanWatchView" pc="268437244" symbol="&lt;globals/BeanWatchView/&lt;&gt;getBatteryDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="29" lineNum="166" parent="globals/BeanWatchView" pc="268437246" symbol="&lt;globals/BeanWatchView/&lt;&gt;getBatteryDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="30" lineNum="86" parent="globals/BeanWatchView" pc="268437273" symbol="&lt;globals/BeanWatchView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="30" lineNum="87" parent="globals/BeanWatchView" pc="268437277" symbol="&lt;globals/BeanWatchView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="30" lineNum="89" parent="globals/BeanWatchView" pc="268437290" symbol="&lt;globals/BeanWatchView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="30" lineNum="90" parent="globals/BeanWatchView" pc="268437327" symbol="&lt;globals/BeanWatchView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="30" lineNum="93" parent="globals/BeanWatchView" pc="268437415" symbol="&lt;globals/BeanWatchView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="31" lineNum="125" parent="globals/BeanWatchView" pc="268437430" symbol="&lt;globals/BeanWatchView/&lt;&gt;setBatteryDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="31" lineNum="126" parent="globals/BeanWatchView" pc="268437434" symbol="&lt;globals/BeanWatchView/&lt;&gt;setBatteryDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="31" lineNum="127" parent="globals/BeanWatchView" pc="268437447" symbol="&lt;globals/BeanWatchView/&lt;&gt;setBatteryDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="31" lineNum="129" parent="globals/BeanWatchView" pc="268437460" symbol="&lt;globals/BeanWatchView/&lt;&gt;setBatteryDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="31" lineNum="130" parent="globals/BeanWatchView" pc="268437477" symbol="&lt;globals/BeanWatchView/&lt;&gt;setBatteryDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="31" lineNum="132" parent="globals/BeanWatchView" pc="268437487" symbol="&lt;globals/BeanWatchView/&lt;&gt;setBatteryDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="31" lineNum="133" parent="globals/BeanWatchView" pc="268437507" symbol="&lt;globals/BeanWatchView/&lt;&gt;setBatteryDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="31" lineNum="134" parent="globals/BeanWatchView" pc="268437527" symbol="&lt;globals/BeanWatchView/&lt;&gt;setBatteryDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="32" lineNum="141" parent="globals/BeanWatchView" pc="268437556" symbol="&lt;globals/BeanWatchView/&lt;&gt;getStepCountDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="32" lineNum="142" parent="globals/BeanWatchView" pc="268437558" symbol="&lt;globals/BeanWatchView/&lt;&gt;getStepCountDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="33" lineNum="161" parent="globals/BeanWatchView" pc="268437585" symbol="&lt;globals/BeanWatchView/&lt;&gt;getDateLabel&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="33" lineNum="162" parent="globals/BeanWatchView" pc="268437587" symbol="&lt;globals/BeanWatchView/&lt;&gt;getDateLabel&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="34" lineNum="51" parent="globals/BeanWatchView" pc="268437614" symbol="onSettingsChanged"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="34" lineNum="52" parent="globals/BeanWatchView" pc="268437616" symbol="onSettingsChanged"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="34" lineNum="53" parent="globals/BeanWatchView" pc="268437650" symbol="onSettingsChanged"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="34" lineNum="54" parent="globals/BeanWatchView" pc="268437671" symbol="onSettingsChanged"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="34" lineNum="55" parent="globals/BeanWatchView" pc="268437692" symbol="onSettingsChanged"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="34" lineNum="57" parent="globals/BeanWatchView" pc="268437713" symbol="onSettingsChanged"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="36" lineNum="149" parent="globals/BeanWatchView" pc="268437730" symbol="&lt;globals/BeanWatchView/&lt;&gt;getHeadingLabel&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="36" lineNum="150" parent="globals/BeanWatchView" pc="268437732" symbol="&lt;globals/BeanWatchView/&lt;&gt;getHeadingLabel&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="37" lineNum="173" parent="globals/BeanWatchView" pc="268437759" symbol="&lt;globals/BeanWatchView/&lt;&gt;getTimeStringHours&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="37" lineNum="175" parent="globals/BeanWatchView" pc="268437763" symbol="&lt;globals/BeanWatchView/&lt;&gt;getTimeStringHours&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="37" lineNum="176" parent="globals/BeanWatchView" pc="268437773" symbol="&lt;globals/BeanWatchView/&lt;&gt;getTimeStringHours&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="37" lineNum="177" parent="globals/BeanWatchView" pc="268437798" symbol="&lt;globals/BeanWatchView/&lt;&gt;getTimeStringHours&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="37" lineNum="178" parent="globals/BeanWatchView" pc="268437809" symbol="&lt;globals/BeanWatchView/&lt;&gt;getTimeStringHours&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="37" lineNum="181" parent="globals/BeanWatchView" pc="268437825" symbol="&lt;globals/BeanWatchView/&lt;&gt;getTimeStringHours&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="38" lineNum="184" parent="globals/BeanWatchView" pc="268437862" symbol="&lt;globals/BeanWatchView/&lt;&gt;getTimeStringMinutes&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="38" lineNum="186" parent="globals/BeanWatchView" pc="268437864" symbol="&lt;globals/BeanWatchView/&lt;&gt;getTimeStringMinutes&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="39" lineNum="18" parent="globals/BeanWatchView" pc="268437887" symbol="initialize"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="39" lineNum="19" parent="globals/BeanWatchView" pc="268437889" symbol="initialize"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="40" lineNum="45" parent="globals/BeanWatchView" pc="268437908" symbol="onHide"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="40" lineNum="46" parent="globals/BeanWatchView" pc="268437910" symbol="onHide"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="40" lineNum="47" parent="globals/BeanWatchView" pc="268437931" symbol="onHide"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="40" lineNum="48" parent="globals/BeanWatchView" pc="268437952" symbol="onHide"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="41" lineNum="137" parent="globals/BeanWatchView" pc="268437974" symbol="&lt;globals/BeanWatchView/&lt;&gt;getHeartrateDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="41" lineNum="138" parent="globals/BeanWatchView" pc="268437976" symbol="&lt;globals/BeanWatchView/&lt;&gt;getHeartrateDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="42" lineNum="157" parent="globals/BeanWatchView" pc="268438003" symbol="&lt;globals/BeanWatchView/&lt;&gt;getNotificationCountDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="42" lineNum="158" parent="globals/BeanWatchView" pc="268438005" symbol="&lt;globals/BeanWatchView/&lt;&gt;getNotificationCountDisplay&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="43" lineNum="61" parent="globals/BeanWatchView" pc="268438032" symbol="onUpdate"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="43" lineNum="62" parent="globals/BeanWatchView" pc="268438034" symbol="onUpdate"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="43" lineNum="63" parent="globals/BeanWatchView" pc="268438046" symbol="onUpdate"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="43" lineNum="64" parent="globals/BeanWatchView" pc="268438058" symbol="onUpdate"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="43" lineNum="65" parent="globals/BeanWatchView" pc="268438070" symbol="onUpdate"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="43" lineNum="68" parent="globals/BeanWatchView" pc="268438082" symbol="onUpdate"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="44" lineNum="153" parent="globals/BeanWatchView" pc="268438107" symbol="&lt;globals/BeanWatchView/&lt;&gt;getBackground&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchView.mc" id="44" lineNum="154" parent="globals/BeanWatchView" pc="268438109" symbol="&lt;globals/BeanWatchView/&lt;&gt;getBackground&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="45" lineNum="6" parent="globals/CircularBar" pc="268438136" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="46" lineNum="38" parent="globals/CircularBar" pc="268438155" symbol="setPercent"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="46" lineNum="39" parent="globals/CircularBar" pc="268438157" symbol="setPercent"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="47" lineNum="28" parent="globals/CircularBar" pc="268438168" symbol="draw"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="47" lineNum="33" parent="globals/CircularBar" pc="268438170" symbol="draw"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="47" lineNum="34" parent="globals/CircularBar" pc="268438190" symbol="draw"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="47" lineNum="35" parent="globals/CircularBar" pc="268438204" symbol="draw"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="48" lineNum="47" parent="globals/CircularBar" pc="268438219" symbol="drawArc"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="48" lineNum="48" parent="globals/CircularBar" pc="268438223" symbol="drawArc"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="48" lineNum="49" parent="globals/CircularBar" pc="268438240" symbol="drawArc"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="48" lineNum="53" parent="globals/CircularBar" pc="268438244" symbol="drawArc"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="48" lineNum="52" parent="globals/CircularBar" pc="268438244" symbol="drawArc"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="48" lineNum="54" parent="globals/CircularBar" pc="268438264" symbol="drawArc"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="48" lineNum="55" parent="globals/CircularBar" pc="268438277" symbol="drawArc"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="48" lineNum="56" parent="globals/CircularBar" pc="268438297" symbol="drawArc"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="48" lineNum="58" parent="globals/CircularBar" pc="268438310" symbol="drawArc"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="48" lineNum="60" parent="globals/CircularBar" pc="268438320" symbol="drawArc"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="48" lineNum="62" parent="globals/CircularBar" pc="268438336" symbol="drawArc"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="48" lineNum="63" parent="globals/CircularBar" pc="268438343" symbol="drawArc"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="48" lineNum="64" parent="globals/CircularBar" pc="268438365" symbol="drawArc"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="48" lineNum="65" parent="globals/CircularBar" pc="268438391" symbol="drawArc"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="49" lineNum="68" parent="globals/CircularBar" pc="268438437" symbol="degreesToRadians"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="49" lineNum="69" parent="globals/CircularBar" pc="268438439" symbol="degreesToRadians"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="50" lineNum="42" parent="globals/CircularBar" pc="268438454" symbol="&lt;globals/CircularBar/&lt;&gt;drawOutlineCircle&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="50" lineNum="43" parent="globals/CircularBar" pc="268438456" symbol="&lt;globals/CircularBar/&lt;&gt;drawOutlineCircle&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="50" lineNum="44" parent="globals/CircularBar" pc="268438484" symbol="&lt;globals/CircularBar/&lt;&gt;drawOutlineCircle&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="51" lineNum="72" parent="globals/CircularBar" pc="268438521" symbol="radiansToDegrees"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="51" lineNum="73" parent="globals/CircularBar" pc="268438523" symbol="radiansToDegrees"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="52" lineNum="12" parent="globals/CircularBar" pc="268438538" symbol="initialize"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="52" lineNum="13" parent="globals/CircularBar" pc="268438540" symbol="initialize"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="52" lineNum="15" parent="globals/CircularBar" pc="268438560" symbol="initialize"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="52" lineNum="16" parent="globals/CircularBar" pc="268438584" symbol="initialize"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="52" lineNum="17" parent="globals/CircularBar" pc="268438608" symbol="initialize"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="52" lineNum="18" parent="globals/CircularBar" pc="268438632" symbol="initialize"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="52" lineNum="19" parent="globals/CircularBar" pc="268438656" symbol="initialize"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="52" lineNum="20" parent="globals/CircularBar" pc="268438680" symbol="initialize"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="52" lineNum="21" parent="globals/CircularBar" pc="268438704" symbol="initialize"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="52" lineNum="22" parent="globals/CircularBar" pc="268438728" symbol="initialize"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="52" lineNum="23" parent="globals/CircularBar" pc="268438752" symbol="initialize"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="52" lineNum="24" parent="globals/CircularBar" pc="268438776" symbol="initialize"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\CircularBar.mc" id="52" lineNum="25" parent="globals/CircularBar" pc="268438800" symbol="initialize"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="53" lineNum="7" parent="globals/HeadingDisplay" pc="268438825" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="54" lineNum="83" parent="globals/HeadingDisplay" pc="268438844" symbol="&lt;globals/HeadingDisplay/&lt;&gt;getText&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="54" lineNum="84" parent="globals/HeadingDisplay" pc="268438848" symbol="&lt;globals/HeadingDisplay/&lt;&gt;getText&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="54" lineNum="86" parent="globals/HeadingDisplay" pc="268438878" symbol="&lt;globals/HeadingDisplay/&lt;&gt;getText&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="54" lineNum="93" parent="globals/HeadingDisplay" pc="268438992" symbol="&lt;globals/HeadingDisplay/&lt;&gt;getText&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="55" lineNum="63" parent="globals/HeadingDisplay" pc="268439016" symbol="getHeadingString"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="55" lineNum="64" parent="globals/HeadingDisplay" pc="268439018" symbol="getHeadingString"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="55" lineNum="65" parent="globals/HeadingDisplay" pc="268439025" symbol="getHeadingString"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="55" lineNum="68" parent="globals/HeadingDisplay" pc="268439034" symbol="getHeadingString"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="55" lineNum="69" parent="globals/HeadingDisplay" pc="268439049" symbol="getHeadingString"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="55" lineNum="70" parent="globals/HeadingDisplay" pc="268439060" symbol="getHeadingString"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="55" lineNum="72" parent="globals/HeadingDisplay" pc="268439073" symbol="getHeadingString"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="56" lineNum="24" parent="globals/HeadingDisplay" pc="268439090" symbol="draw"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="56" lineNum="25" parent="globals/HeadingDisplay" pc="268439094" symbol="draw"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="56" lineNum="27" parent="globals/HeadingDisplay" pc="268439107" symbol="draw"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="56" lineNum="28" parent="globals/HeadingDisplay" pc="268439127" symbol="draw"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="56" lineNum="29" parent="globals/HeadingDisplay" pc="268439141" symbol="draw"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="56" lineNum="31" parent="globals/HeadingDisplay" pc="268439157" symbol="draw"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="56" lineNum="32" parent="globals/HeadingDisplay" pc="268439188" symbol="draw"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="57" lineNum="40" parent="globals/HeadingDisplay" pc="268439209" symbol="drawArc"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="57" lineNum="41" parent="globals/HeadingDisplay" pc="268439213" symbol="drawArc"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="57" lineNum="42" parent="globals/HeadingDisplay" pc="268439234" symbol="drawArc"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="57" lineNum="45" parent="globals/HeadingDisplay" pc="268439238" symbol="drawArc"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="57" lineNum="47" parent="globals/HeadingDisplay" pc="268439264" symbol="drawArc"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="57" lineNum="49" parent="globals/HeadingDisplay" pc="268439279" symbol="drawArc"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="57" lineNum="50" parent="globals/HeadingDisplay" pc="268439301" symbol="drawArc"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="57" lineNum="51" parent="globals/HeadingDisplay" pc="268439327" symbol="drawArc"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="58" lineNum="75" parent="globals/HeadingDisplay" pc="268439379" symbol="degreesToRadians"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="58" lineNum="76" parent="globals/HeadingDisplay" pc="268439381" symbol="degreesToRadians"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="59" lineNum="35" parent="globals/HeadingDisplay" pc="268439396" symbol="&lt;globals/HeadingDisplay/&lt;&gt;drawOutlineCircle&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="59" lineNum="36" parent="globals/HeadingDisplay" pc="268439398" symbol="&lt;globals/HeadingDisplay/&lt;&gt;drawOutlineCircle&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="59" lineNum="37" parent="globals/HeadingDisplay" pc="268439420" symbol="&lt;globals/HeadingDisplay/&lt;&gt;drawOutlineCircle&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="60" lineNum="54" parent="globals/HeadingDisplay" pc="268439457" symbol="getHeading"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="60" lineNum="55" parent="globals/HeadingDisplay" pc="268439461" symbol="getHeading"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="60" lineNum="56" parent="globals/HeadingDisplay" pc="268439480" symbol="getHeading"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="60" lineNum="57" parent="globals/HeadingDisplay" pc="268439487" symbol="getHeading"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="60" lineNum="60" parent="globals/HeadingDisplay" pc="268439492" symbol="getHeading"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="61" lineNum="79" parent="globals/HeadingDisplay" pc="268439501" symbol="radiansToDegrees"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="61" lineNum="80" parent="globals/HeadingDisplay" pc="268439503" symbol="radiansToDegrees"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="62" lineNum="15" parent="globals/HeadingDisplay" pc="268439518" symbol="initialize"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="62" lineNum="16" parent="globals/HeadingDisplay" pc="268439520" symbol="initialize"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="62" lineNum="18" parent="globals/HeadingDisplay" pc="268439540" symbol="initialize"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="62" lineNum="19" parent="globals/HeadingDisplay" pc="268439564" symbol="initialize"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\HeadingDisplay.mc" id="62" lineNum="21" parent="globals/HeadingDisplay" pc="268439588" symbol="initialize"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="63" lineNum="6" parent="globals/NotificationDisplay" pc="268439601" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="64" lineNum="22" parent="globals/NotificationDisplay" pc="268439620" symbol="onShow"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="64" lineNum="23" parent="globals/NotificationDisplay" pc="268439622" symbol="onShow"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="65" lineNum="84" parent="globals/NotificationDisplay" pc="268439635" symbol="&lt;globals/NotificationDisplay/&lt;&gt;getText&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="65" lineNum="85" parent="globals/NotificationDisplay" pc="268439639" symbol="&lt;globals/NotificationDisplay/&lt;&gt;getText&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="65" lineNum="87" parent="globals/NotificationDisplay" pc="268439667" symbol="&lt;globals/NotificationDisplay/&lt;&gt;getText&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="66" lineNum="78" parent="globals/NotificationDisplay" pc="268439788" symbol="&lt;globals/NotificationDisplay/&lt;&gt;drawText&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="66" lineNum="79" parent="globals/NotificationDisplay" pc="268439792" symbol="&lt;globals/NotificationDisplay/&lt;&gt;drawText&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="66" lineNum="80" parent="globals/NotificationDisplay" pc="268439807" symbol="&lt;globals/NotificationDisplay/&lt;&gt;drawText&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="66" lineNum="81" parent="globals/NotificationDisplay" pc="268439827" symbol="&lt;globals/NotificationDisplay/&lt;&gt;drawText&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="67" lineNum="61" parent="globals/NotificationDisplay" pc="268439848" symbol="draw"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="67" lineNum="62" parent="globals/NotificationDisplay" pc="268439852" symbol="draw"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="67" lineNum="64" parent="globals/NotificationDisplay" pc="268439865" symbol="draw"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="67" lineNum="65" parent="globals/NotificationDisplay" pc="268439881" symbol="draw"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="68" lineNum="52" parent="globals/NotificationDisplay" pc="268439898" symbol="&lt;globals/NotificationDisplay/&lt;&gt;getNotificationString&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="68" lineNum="53" parent="globals/NotificationDisplay" pc="268439900" symbol="&lt;globals/NotificationDisplay/&lt;&gt;getNotificationString&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="68" lineNum="54" parent="globals/NotificationDisplay" pc="268439911" symbol="&lt;globals/NotificationDisplay/&lt;&gt;getNotificationString&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="68" lineNum="57" parent="globals/NotificationDisplay" pc="268439920" symbol="&lt;globals/NotificationDisplay/&lt;&gt;getNotificationString&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="69" lineNum="69" parent="globals/NotificationDisplay" pc="268439938" symbol="&lt;globals/NotificationDisplay/&lt;&gt;drawImage&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="69" lineNum="70" parent="globals/NotificationDisplay" pc="268439942" symbol="&lt;globals/NotificationDisplay/&lt;&gt;drawImage&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="69" lineNum="71" parent="globals/NotificationDisplay" pc="268439972" symbol="&lt;globals/NotificationDisplay/&lt;&gt;drawImage&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="69" lineNum="72" parent="globals/NotificationDisplay" pc="268439992" symbol="&lt;globals/NotificationDisplay/&lt;&gt;drawImage&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="69" lineNum="74" parent="globals/NotificationDisplay" pc="268440005" symbol="&lt;globals/NotificationDisplay/&lt;&gt;drawImage&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="69" lineNum="75" parent="globals/NotificationDisplay" pc="268440033" symbol="&lt;globals/NotificationDisplay/&lt;&gt;drawImage&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="70" lineNum="31" parent="globals/NotificationDisplay" pc="268440070" symbol="onSettingsChanged"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="70" lineNum="32" parent="globals/NotificationDisplay" pc="268440072" symbol="onSettingsChanged"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="70" lineNum="33" parent="globals/NotificationDisplay" pc="268440085" symbol="onSettingsChanged"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="70" lineNum="36" parent="globals/NotificationDisplay" pc="268440089" symbol="onSettingsChanged"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="71" lineNum="39" parent="globals/NotificationDisplay" pc="268440102" symbol="getBitmap"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="71" lineNum="40" parent="globals/NotificationDisplay" pc="268440104" symbol="getBitmap"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="71" lineNum="41" parent="globals/NotificationDisplay" pc="268440109" symbol="getBitmap"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="71" lineNum="43" parent="globals/NotificationDisplay" pc="268440159" symbol="getBitmap"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="72" lineNum="48" parent="globals/NotificationDisplay" pc="268440207" symbol="&lt;globals/NotificationDisplay/&lt;&gt;getNotificationCount&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="72" lineNum="49" parent="globals/NotificationDisplay" pc="268440209" symbol="&lt;globals/NotificationDisplay/&lt;&gt;getNotificationCount&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="73" lineNum="15" parent="globals/NotificationDisplay" pc="268440233" symbol="initialize"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="73" lineNum="16" parent="globals/NotificationDisplay" pc="268440235" symbol="initialize"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="73" lineNum="18" parent="globals/NotificationDisplay" pc="268440255" symbol="initialize"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="73" lineNum="19" parent="globals/NotificationDisplay" pc="268440279" symbol="initialize"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="74" lineNum="26" parent="globals/NotificationDisplay" pc="268440304" symbol="onHide"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="74" lineNum="27" parent="globals/NotificationDisplay" pc="268440306" symbol="onHide"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\NotificationDisplay.mc" id="74" lineNum="28" parent="globals/NotificationDisplay" pc="268440315" symbol="onHide"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchApp.mc" id="75" lineNum="5" parent="globals/BeanWatchApp" pc="268440325" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchApp.mc" id="76" lineNum="12" parent="globals/BeanWatchApp" pc="268440344" symbol="onStart"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchApp.mc" id="77" lineNum="25" parent="globals/BeanWatchApp" pc="268440347" symbol="onSettingsChanged"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchApp.mc" id="77" lineNum="26" parent="globals/BeanWatchApp" pc="268440349" symbol="onSettingsChanged"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchApp.mc" id="78" lineNum="20" parent="globals/BeanWatchApp" pc="268440366" symbol="getInitialView"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchApp.mc" id="78" lineNum="21" parent="globals/BeanWatchApp" pc="268440368" symbol="getInitialView"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchApp.mc" id="79" lineNum="7" parent="globals/BeanWatchApp" pc="268440409" symbol="initialize"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchApp.mc" id="79" lineNum="8" parent="globals/BeanWatchApp" pc="268440411" symbol="initialize"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\source\\BeanWatchApp.mc" id="80" lineNum="16" parent="globals/BeanWatchApp" pc="268440430" symbol="onStop"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="81" lineNum="25" parent="globals/Rez/Layouts" pc="268440433" symbol="WatchFace"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="81" lineNum="26" parent="globals/Rez/Layouts" pc="268440445" symbol="WatchFace"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="81" lineNum="28" parent="globals/Rez/Layouts" pc="268440492" symbol="WatchFace"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="81" lineNum="30" parent="globals/Rez/Layouts" pc="268440627" symbol="WatchFace"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="81" lineNum="32" parent="globals/Rez/Layouts" pc="268440739" symbol="WatchFace"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="81" lineNum="34" parent="globals/Rez/Layouts" pc="268440864" symbol="WatchFace"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="81" lineNum="36" parent="globals/Rez/Layouts" pc="268441054" symbol="WatchFace"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="81" lineNum="38" parent="globals/Rez/Layouts" pc="268441179" symbol="WatchFace"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="81" lineNum="40" parent="globals/Rez/Layouts" pc="268441252" symbol="WatchFace"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="81" lineNum="42" parent="globals/Rez/Layouts" pc="268441325" symbol="WatchFace"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="81" lineNum="44" parent="globals/Rez/Layouts" pc="268441515" symbol="WatchFace"/>
+        <entry filename="D:\\Development\\Gitbit\\Watchfaces\\Bean\\BeanWatch\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="81" lineNum="46" parent="globals/Rez/Layouts" pc="268441640" symbol="WatchFace"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry field="true" id="28" symbol="&lt;globals/BeanWatchView/&lt;&gt;foregroundColor&gt;"/>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8389346" symbol="text"/>
+        <entry id="59" method="true" symbol="&lt;globals/HeadingDisplay/&lt;&gt;drawOutlineCircle&gt;"/>
+        <entry id="9" object="true" symbol="BeanWatchApp"/>
+        <entry id="43" method="true" symbol="&lt;globals/BeanWatchView/&lt;&gt;setStepCountDisplay&gt;"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry field="true" id="89" symbol="ColorPurple"/>
+        <entry id="69" method="true" symbol="&lt;globals/NotificationDisplay/&lt;&gt;getText&gt;"/>
+        <entry id="7" module="true" symbol="globals/Rez/Menus"/>
+        <entry field="true" id="18" symbol="&lt;globals/HeartRate/&lt;&gt;heartLogo&gt;"/>
+        <entry field="true" id="87" symbol="ColorGreen"/>
+        <entry id="8389683" method="true" symbol="onSettingsChanged"/>
+        <entry id="14" object="true" symbol="NotificationDisplay"/>
+        <entry field="true" id="8389759" symbol="radius"/>
+        <entry id="67" method="true" symbol="&lt;globals/NotificationDisplay/&lt;&gt;getNotificationCount&gt;"/>
+        <entry id="62" method="true" symbol="&lt;globals/HeadingDisplay/&lt;&gt;getText&gt;"/>
+        <entry id="33" method="true" symbol="&lt;globals/BeanWatchView/&lt;&gt;getHeadingLabel&gt;"/>
+        <entry field="true" id="90" symbol="ColorRed"/>
+        <entry field="true" id="50" symbol="filledColor"/>
+        <entry field="true" id="78" symbol="Space"/>
+        <entry field="true" id="76" symbol="NotificationNone"/>
+        <entry id="8388924" module="true" symbol="Gregorian"/>
+        <entry id="66" method="true" symbol="&lt;globals/NotificationDisplay/&lt;&gt;drawText&gt;"/>
+        <entry id="15" method="true" symbol="&lt;globals/HeartRate/&lt;&gt;DoesDeviceSupportHeartrate&gt;"/>
+        <entry id="29" method="true" symbol="&lt;globals/BeanWatchView/&lt;&gt;getBackground&gt;"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="71" symbol="&lt;globals/NotificationDisplay/&lt;&gt;myText&gt;"/>
+        <entry field="true" id="95" symbol="Image2SpaceFox"/>
+        <entry id="13" object="true" symbol="HeartRate"/>
+        <entry field="true" id="85" symbol="ColorBlue"/>
+        <entry field="true" id="54" symbol="percent"/>
+        <entry id="35" method="true" symbol="&lt;globals/BeanWatchView/&lt;&gt;getNotificationCountDisplay&gt;"/>
+        <entry field="true" id="81" symbol="AppName"/>
+        <entry id="8" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry id="8388631" module="true" symbol="Activity"/>
+        <entry field="true" id="23" symbol="&lt;globals/HeartRate/&lt;&gt;y&gt;"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry field="true" id="22" symbol="&lt;globals/HeartRate/&lt;&gt;x&gt;"/>
+        <entry id="32" method="true" symbol="&lt;globals/BeanWatchView/&lt;&gt;getDateLabel&gt;"/>
+        <entry field="true" id="47" symbol="criticalThreshold"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry field="true" id="72" symbol="&lt;globals/NotificationDisplay/&lt;&gt;previousCount&gt;"/>
+        <entry id="31" method="true" symbol="&lt;globals/BeanWatchView/&lt;&gt;getBatteryLabel&gt;"/>
+        <entry id="61" method="true" symbol="getHeadingString"/>
+        <entry field="true" id="24" symbol="&lt;globals/Background/&lt;&gt;image&gt;"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="20" method="true" symbol="&lt;globals/HeartRate/&lt;&gt;retrieveHeartRateString&gt;"/>
+        <entry id="49" method="true" symbol="&lt;globals/CircularBar/&lt;&gt;drawOutlineCircle&gt;"/>
+        <entry id="8389687" method="true" symbol="drawArc"/>
+        <entry id="60" method="true" symbol="getHeading"/>
+        <entry id="65" method="true" symbol="&lt;globals/NotificationDisplay/&lt;&gt;drawImage&gt;"/>
+        <entry id="41" method="true" symbol="&lt;globals/BeanWatchView/&lt;&gt;setClockDisplay&gt;"/>
+        <entry field="true" id="25" symbol="imageResources"/>
+        <entry field="true" id="57" symbol="unfilledColor"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="27" module="true" symbol="Menus"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry field="true" id="86" symbol="ColorDarkGray"/>
+        <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+        <entry field="true" id="75" symbol="NotificationNew"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry field="true" id="8389714" symbol="INVALID_HR_SAMPLE"/>
+        <entry field="true" id="73" symbol="Fox"/>
+        <entry field="true" id="51" symbol="filledColorCritical"/>
+        <entry id="48" method="true" symbol="degreesToRadians"/>
+        <entry id="40" method="true" symbol="&lt;globals/BeanWatchView/&lt;&gt;setBatteryDisplay&gt;"/>
+        <entry field="true" id="91" symbol="ColorWhite"/>
+        <entry id="5" module="true" symbol="globals/Rez/JsonData"/>
+        <entry id="68" method="true" symbol="&lt;globals/NotificationDisplay/&lt;&gt;getNotificationString&gt;"/>
+        <entry field="true" id="84" symbol="ColorBlack"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry field="true" id="77" symbol="PixelHeart"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry field="true" id="79" symbol="SpaceFox"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="11" object="true" symbol="CircularBar"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="58" symbol="&lt;globals/HeadingDisplay/&lt;&gt;barThickness&gt;"/>
+        <entry id="12" object="true" symbol="HeadingDisplay"/>
+        <entry field="true" id="80" symbol="AccentColorTitle"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="16" method="true" symbol="getBitmap"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry id="8389068" method="true" symbol="draw"/>
+        <entry field="true" id="74" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="39" method="true" symbol="&lt;globals/BeanWatchView/&lt;&gt;getTimeStringMinutes&gt;"/>
+        <entry id="36" method="true" symbol="&lt;globals/BeanWatchView/&lt;&gt;getStepCountDisplay&gt;"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry field="true" id="82" symbol="BackgroundColorTitle"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8390146" module="true" object="true" symbol="Background"/>
+        <entry field="true" id="46" symbol="centerY"/>
+        <entry field="true" id="45" symbol="centerX"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry field="true" id="93" symbol="Image0Space"/>
+        <entry field="true" id="19" symbol="&lt;globals/HeartRate/&lt;&gt;myText&gt;"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="21" method="true" symbol="&lt;globals/HeartRate/&lt;&gt;setHeartRateDisplay&gt;"/>
+        <entry id="8388641" module="true" symbol="Math"/>
+        <entry field="true" id="63" symbol="&lt;globals/HeadingDisplay/&lt;&gt;myText&gt;"/>
+        <entry field="true" id="88" symbol="ColorLightGray"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="8389347" symbol="color"/>
+        <entry field="true" id="70" symbol="&lt;globals/NotificationDisplay/&lt;&gt;image&gt;"/>
+        <entry field="true" id="64" symbol="&lt;globals/HeadingDisplay/&lt;&gt;radius&gt;"/>
+        <entry field="true" id="83" symbol="BackgroundImageTitle"/>
+        <entry id="42" method="true" symbol="&lt;globals/BeanWatchView/&lt;&gt;setDateDisplay&gt;"/>
+        <entry id="56" method="true" symbol="setPercent"/>
+        <entry field="true" id="53" symbol="lowThreshold"/>
+        <entry field="true" id="92" symbol="ForegroundColorTitle"/>
+        <entry id="26" module="true" symbol="Layouts"/>
+        <entry id="55" method="true" symbol="radiansToDegrees"/>
+        <entry field="true" id="94" symbol="Image1Fox"/>
+        <entry id="30" method="true" symbol="&lt;globals/BeanWatchView/&lt;&gt;getBatteryDisplay&gt;"/>
+        <entry id="10" object="true" symbol="BeanWatchView"/>
+        <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+        <entry field="true" id="96" symbol="Image3None"/>
+        <entry id="37" method="true" symbol="&lt;globals/BeanWatchView/&lt;&gt;getStepCountLabel&gt;"/>
+        <entry id="38" method="true" symbol="&lt;globals/BeanWatchView/&lt;&gt;getTimeStringHours&gt;"/>
+        <entry id="34" method="true" symbol="&lt;globals/BeanWatchView/&lt;&gt;getHeartrateDisplay&gt;"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry field="true" id="44" symbol="barThickness"/>
+        <entry id="17" method="true" symbol="&lt;globals/HeartRate/&lt;&gt;getText&gt;"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="8390079" symbol="y"/>
+        <entry field="true" id="8390078" symbol="x"/>
+        <entry field="true" id="52" symbol="filledColorLow"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268435674" name="foregroundColor" stackId="1" startPc="268435510"/>
+        <entry arg="true" endPc="268435794" name="dc" stackId="1" startPc="268435676"/>
+        <entry arg="true" endPc="268435996" name="params" stackId="1" startPc="268435926"/>
+        <entry endPc="268436097" name="info" stackId="1" startPc="268436022"/>
+        <entry endPc="268436097" name="heartRate" stackId="2" startPc="268436022"/>
+        <entry endPc="268436381" name="imageIndex" stackId="1" startPc="268436296"/>
+        <entry endPc="268436381" name="imageResource" stackId="2" startPc="268436296"/>
+        <entry arg="true" endPc="268436428" name="params" stackId="1" startPc="268436383"/>
+        <entry endPc="268436427" name="dictionary" stackId="2" startPc="268436387"/>
+        <entry arg="true" endPc="268436557" name="dc" stackId="1" startPc="268436441"/>
+        <entry endPc="268436864" name="stepDisplay" stackId="1" startPc="268436605"/>
+        <entry endPc="268436864" name="stepLabel" stackId="2" startPc="268436605"/>
+        <entry endPc="268436864" name="info" stackId="3" startPc="268436605"/>
+        <entry endPc="268436864" name="steps" stackId="4" startPc="268436605"/>
+        <entry endPc="268436864" name="stepGoal" stackId="5" startPc="268436605"/>
+        <entry endPc="268436864" name="stepPercent" stackId="6" startPc="268436605"/>
+        <entry endPc="268436864" name="stepFormat" stackId="7" startPc="268436605"/>
+        <entry endPc="268437069" name="clockTime" stackId="1" startPc="268436899"/>
+        <entry endPc="268437069" name="timeStringHours" stackId="2" startPc="268436899"/>
+        <entry endPc="268437069" name="timeStringMinutes" stackId="3" startPc="268436899"/>
+        <entry endPc="268437069" name="timeViewHours" stackId="4" startPc="268436899"/>
+        <entry endPc="268437069" name="timeViewMinutes" stackId="5" startPc="268436899"/>
+        <entry arg="true" endPc="268437243" name="dc" stackId="1" startPc="268437166"/>
+        <entry endPc="268437428" name="dateLabel" stackId="1" startPc="268437277"/>
+        <entry endPc="268437428" name="today" stackId="2" startPc="268437277"/>
+        <entry endPc="268437428" name="dateString" stackId="3" startPc="268437277"/>
+        <entry endPc="268437554" name="batteryDisplay" stackId="1" startPc="268437434"/>
+        <entry endPc="268437554" name="batteryLabel" stackId="2" startPc="268437434"/>
+        <entry endPc="268437554" name="stats" stackId="3" startPc="268437434"/>
+        <entry endPc="268437554" name="batteryLevel" stackId="4" startPc="268437434"/>
+        <entry arg="true" endPc="268437861" name="clockTime" stackId="1" startPc="268437759"/>
+        <entry endPc="268437861" name="hours" stackId="2" startPc="268437763"/>
+        <entry arg="true" endPc="268437886" name="clockTime" stackId="1" startPc="268437862"/>
+        <entry arg="true" endPc="268438106" name="dc" stackId="1" startPc="268438032"/>
+        <entry arg="true" endPc="268438167" name="newPercent" stackId="1" startPc="268438155"/>
+        <entry arg="true" endPc="268438218" name="dc" stackId="1" startPc="268438168"/>
+        <entry arg="true" endPc="268438436" name="dc" stackId="1" startPc="268438219"/>
+        <entry endPc="268438435" name="color" stackId="2" startPc="268438223"/>
+        <entry endPc="268438435" name="degreeStart" stackId="3" startPc="268438223"/>
+        <entry endPc="268438435" name="degreeEnd" stackId="4" startPc="268438223"/>
+        <entry arg="true" endPc="268438453" name="degrees" stackId="1" startPc="268438437"/>
+        <entry arg="true" endPc="268438520" name="dc" stackId="1" startPc="268438454"/>
+        <entry arg="true" endPc="268438537" name="radians" stackId="1" startPc="268438521"/>
+        <entry arg="true" endPc="268438824" name="params" stackId="1" startPc="268438538"/>
+        <entry endPc="268439014" name="foregroundColor" stackId="1" startPc="268438848"/>
+        <entry arg="true" endPc="268439089" name="heading" stackId="1" startPc="268439016"/>
+        <entry arg="true" endPc="268439208" name="dc" stackId="1" startPc="268439090"/>
+        <entry endPc="268439207" name="heading" stackId="2" startPc="268439094"/>
+        <entry arg="true" endPc="268439378" name="dc" stackId="1" startPc="268439209"/>
+        <entry arg="true" endPc="268439378" name="heading" stackId="2" startPc="268439209"/>
+        <entry endPc="268439377" name="direction" stackId="3" startPc="268439213"/>
+        <entry endPc="268439377" name="headingDegrees" stackId="4" startPc="268439213"/>
+        <entry arg="true" endPc="268439395" name="degrees" stackId="1" startPc="268439379"/>
+        <entry arg="true" endPc="268439456" name="dc" stackId="1" startPc="268439396"/>
+        <entry endPc="268439500" name="info" stackId="1" startPc="268439461"/>
+        <entry arg="true" endPc="268439517" name="radians" stackId="1" startPc="268439501"/>
+        <entry arg="true" endPc="268439600" name="params" stackId="1" startPc="268439518"/>
+        <entry endPc="268439786" name="foregroundColor" stackId="1" startPc="268439639"/>
+        <entry arg="true" endPc="268439847" name="dc" stackId="1" startPc="268439788"/>
+        <entry arg="true" endPc="268439847" name="count" stackId="2" startPc="268439788"/>
+        <entry endPc="268439846" name="countString" stackId="3" startPc="268439792"/>
+        <entry arg="true" endPc="268439897" name="dc" stackId="1" startPc="268439848"/>
+        <entry endPc="268439896" name="count" stackId="2" startPc="268439852"/>
+        <entry arg="true" endPc="268439937" name="count" stackId="1" startPc="268439898"/>
+        <entry arg="true" endPc="268440069" name="dc" stackId="1" startPc="268439938"/>
+        <entry arg="true" endPc="268440069" name="count" stackId="2" startPc="268439938"/>
+        <entry endPc="268440068" name="locX" stackId="3" startPc="268439942"/>
+        <entry arg="true" endPc="268440206" name="isNew" stackId="1" startPc="268440102"/>
+        <entry arg="true" endPc="268440303" name="params" stackId="1" startPc="268440233"/>
+        <entry arg="true" endPc="268441746" name="dc" stackId="1" startPc="268440433"/>
+        <entry endPc="268441746" name="rez_cmp_local_custom_drawable_Background" stackId="2" startPc="268440445"/>
+        <entry endPc="268441746" name="rez_cmp_local_text_TimeLabelHours" stackId="3" startPc="268440445"/>
+        <entry endPc="268441746" name="rez_cmp_local_text_TimeLabelMinutes" stackId="4" startPc="268440445"/>
+        <entry endPc="268441746" name="rez_cmp_local_text_DateLabel" stackId="5" startPc="268440445"/>
+        <entry endPc="268441746" name="rez_cmp_local_custom_drawable_StepCountDisplay" stackId="6" startPc="268440445"/>
+        <entry endPc="268441746" name="rez_cmp_local_text_StepCountLabel" stackId="7" startPc="268440445"/>
+        <entry endPc="268441746" name="rez_cmp_local_custom_drawable_HeartrateDisplay" stackId="8" startPc="268440445"/>
+        <entry endPc="268441746" name="rez_cmp_local_custom_drawable_NotificationCountDisplay" stackId="9" startPc="268440445"/>
+        <entry endPc="268441746" name="rez_cmp_local_custom_drawable_BatteryDisplay" stackId="10" startPc="268440445"/>
+        <entry endPc="268441746" name="rez_cmp_local_text_BatteryLabel" stackId="11" startPc="268440445"/>
+    </localVars>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Image0Space"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Fox"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AccentColorTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Image2SpaceFox"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Image1Fox"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Image3None"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="PixelHeart"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorWhite"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ForegroundColorTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorLightGray"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlue"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Space"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorGreen"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorPurple"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="SpaceFox"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundColorTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorRed"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="NotificationNone"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDarkGray"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="NotificationNew"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundImageTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlack"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/HeartRate" offset="198" parentId="globals" symbolId="HeartRate" type="class"/>
+        <dataEntry label="globals/Background" offset="349" parentId="globals" symbolId="Background" type="class"/>
+        <dataEntry label="globals/Rez" offset="452" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/BeanWatchView" offset="531" parentId="globals" symbolId="BeanWatchView" type="class"/>
+        <dataEntry label="globals/CircularBar" offset="762" parentId="globals" symbolId="CircularBar" type="class"/>
+        <dataEntry label="globals/HeadingDisplay" offset="945" parentId="globals" symbolId="HeadingDisplay" type="class"/>
+        <dataEntry label="globals/NotificationDisplay" offset="1096" parentId="globals" symbolId="NotificationDisplay" type="class"/>
+        <dataEntry label="globals/BeanWatchApp" offset="1263" parentId="globals" symbolId="BeanWatchApp" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="1342" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="1429" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="1468" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="1499" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1530" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="1697" parentId="Rez" symbolId="JsonData" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="HeartRate" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435505" name="onShow" parent="HeartRate" startPc="268435479">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268435675" name="&lt;globals/HeartRate/&lt;&gt;getText&gt;" parent="HeartRate" startPc="268435506">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435794" name="draw" parent="HeartRate" startPc="268435676">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268435826" name="&lt;globals/HeartRate/&lt;&gt;setHeartRateDisplay&gt;" parent="HeartRate" startPc="268435795">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435858" name="onSettingsChanged" parent="HeartRate" startPc="268435827">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435908" name="getBitmap" parent="HeartRate" startPc="268435859">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268435925" name="&lt;globals/HeartRate/&lt;&gt;DoesDeviceSupportHeartrate&gt;" parent="HeartRate" startPc="268435909">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435996" name="initialize" parent="HeartRate" startPc="268435926">
+            <param id="params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436017" name="onHide" parent="HeartRate" startPc="268435997">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436097" name="&lt;globals/HeartRate/&lt;&gt;retrieveHeartRateString&gt;" parent="HeartRate" startPc="268436018">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436123" name="getApp" startPc="268436098">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436261" name="&lt;init&gt;" parent="Background" startPc="268436124">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436276" name="onShow" parent="Background" startPc="268436262">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436291" name="onSettingsChanged" parent="Background" startPc="268436277">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436382" name="getBitmap" parent="Background" startPc="268436292">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436428" name="initialize" parent="Background" startPc="268436383">
+            <param id="params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436440" name="onHide" parent="Background" startPc="268436429">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436557" name="draw" parent="Background" startPc="268436441">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436581" name="&lt;init&gt;" parent="Rez" startPc="268436558">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436600" name="&lt;init&gt;" parent="BeanWatchView" startPc="268436582">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436865" name="&lt;globals/BeanWatchView/&lt;&gt;setStepCountDisplay&gt;" parent="BeanWatchView" startPc="268436601">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436894" name="&lt;globals/BeanWatchView/&lt;&gt;getStepCountLabel&gt;" parent="BeanWatchView" startPc="268436866">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onExitSleep" parent="BeanWatchView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437070" name="&lt;globals/BeanWatchView/&lt;&gt;setClockDisplay&gt;" parent="BeanWatchView" startPc="268436895">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437136" name="onShow" parent="BeanWatchView" startPc="268437071">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437165" name="&lt;globals/BeanWatchView/&lt;&gt;getBatteryLabel&gt;" parent="BeanWatchView" startPc="268437137">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437243" name="onLayout" parent="BeanWatchView" startPc="268437166">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437272" name="&lt;globals/BeanWatchView/&lt;&gt;getBatteryDisplay&gt;" parent="BeanWatchView" startPc="268437244">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437429" name="&lt;globals/BeanWatchView/&lt;&gt;setDateDisplay&gt;" parent="BeanWatchView" startPc="268437273">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437555" name="&lt;globals/BeanWatchView/&lt;&gt;setBatteryDisplay&gt;" parent="BeanWatchView" startPc="268437430">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437584" name="&lt;globals/BeanWatchView/&lt;&gt;getStepCountDisplay&gt;" parent="BeanWatchView" startPc="268437556">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437613" name="&lt;globals/BeanWatchView/&lt;&gt;getDateLabel&gt;" parent="BeanWatchView" startPc="268437585">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437729" name="onSettingsChanged" parent="BeanWatchView" startPc="268437614">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onEnterSleep" parent="BeanWatchView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437758" name="&lt;globals/BeanWatchView/&lt;&gt;getHeadingLabel&gt;" parent="BeanWatchView" startPc="268437730">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437861" name="&lt;globals/BeanWatchView/&lt;&gt;getTimeStringHours&gt;" parent="BeanWatchView" startPc="268437759">
+            <param id="clockTime"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437886" name="&lt;globals/BeanWatchView/&lt;&gt;getTimeStringMinutes&gt;" parent="BeanWatchView" startPc="268437862">
+            <param id="clockTime"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437907" name="initialize" parent="BeanWatchView" startPc="268437887">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437973" name="onHide" parent="BeanWatchView" startPc="268437908">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438002" name="&lt;globals/BeanWatchView/&lt;&gt;getHeartrateDisplay&gt;" parent="BeanWatchView" startPc="268437974">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438031" name="&lt;globals/BeanWatchView/&lt;&gt;getNotificationCountDisplay&gt;" parent="BeanWatchView" startPc="268438003">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438106" name="onUpdate" parent="BeanWatchView" startPc="268438032">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438135" name="&lt;globals/BeanWatchView/&lt;&gt;getBackground&gt;" parent="BeanWatchView" startPc="268438107">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438154" name="&lt;init&gt;" parent="CircularBar" startPc="268438136">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438167" name="setPercent" parent="CircularBar" startPc="268438155">
+            <param id="newPercent"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438218" name="draw" parent="CircularBar" startPc="268438168">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268438436" name="drawArc" parent="CircularBar" startPc="268438219">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268438453" name="degreesToRadians" parent="CircularBar" startPc="268438437">
+            <param id="degrees"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438520" name="&lt;globals/CircularBar/&lt;&gt;drawOutlineCircle&gt;" parent="CircularBar" startPc="268438454">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268438537" name="radiansToDegrees" parent="CircularBar" startPc="268438521">
+            <param id="radians"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438824" name="initialize" parent="CircularBar" startPc="268438538">
+            <param id="params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438843" name="&lt;init&gt;" parent="HeadingDisplay" startPc="268438825">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268439015" name="&lt;globals/HeadingDisplay/&lt;&gt;getText&gt;" parent="HeadingDisplay" startPc="268438844">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439089" name="getHeadingString" parent="HeadingDisplay" startPc="268439016">
+            <param id="heading"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439208" name="draw" parent="HeadingDisplay" startPc="268439090">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268439378" name="drawArc" parent="HeadingDisplay" startPc="268439209">
+            <param id="dc"/>
+            <param id="heading"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268439395" name="degreesToRadians" parent="HeadingDisplay" startPc="268439379">
+            <param id="degrees"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268439456" name="&lt;globals/HeadingDisplay/&lt;&gt;drawOutlineCircle&gt;" parent="HeadingDisplay" startPc="268439396">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439500" name="getHeading" parent="HeadingDisplay" startPc="268439457">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268439517" name="radiansToDegrees" parent="HeadingDisplay" startPc="268439501">
+            <param id="radians"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439600" name="initialize" parent="HeadingDisplay" startPc="268439518">
+            <param id="params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439619" name="&lt;init&gt;" parent="NotificationDisplay" startPc="268439601">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439634" name="onShow" parent="NotificationDisplay" startPc="268439620">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268439787" name="&lt;globals/NotificationDisplay/&lt;&gt;getText&gt;" parent="NotificationDisplay" startPc="268439635">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268439847" name="&lt;globals/NotificationDisplay/&lt;&gt;drawText&gt;" parent="NotificationDisplay" startPc="268439788">
+            <param id="dc"/>
+            <param id="count"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439897" name="draw" parent="NotificationDisplay" startPc="268439848">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268439937" name="&lt;globals/NotificationDisplay/&lt;&gt;getNotificationString&gt;" parent="NotificationDisplay" startPc="268439898">
+            <param id="count"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268440069" name="&lt;globals/NotificationDisplay/&lt;&gt;drawImage&gt;" parent="NotificationDisplay" startPc="268439938">
+            <param id="dc"/>
+            <param id="count"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440101" name="onSettingsChanged" parent="NotificationDisplay" startPc="268440070">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440206" name="getBitmap" parent="NotificationDisplay" startPc="268440102">
+            <param id="isNew"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268440232" name="&lt;globals/NotificationDisplay/&lt;&gt;getNotificationCount&gt;" parent="NotificationDisplay" startPc="268440207">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440303" name="initialize" parent="NotificationDisplay" startPc="268440233">
+            <param id="params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440324" name="onHide" parent="NotificationDisplay" startPc="268440304">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440343" name="&lt;init&gt;" parent="BeanWatchApp" startPc="268440325">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440346" name="onStart" parent="BeanWatchApp" startPc="268440344">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440365" name="onSettingsChanged" parent="BeanWatchApp" startPc="268440347">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440408" name="getInitialView" parent="BeanWatchApp" startPc="268440366">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440429" name="initialize" parent="BeanWatchApp" startPc="268440409">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440432" name="onStop" parent="BeanWatchApp" startPc="268440430">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441746" name="WatchFace" parent="Layouts" startPc="268440433">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

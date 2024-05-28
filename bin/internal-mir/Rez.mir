@@ -1,0 +1,1912 @@
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 2; ]
+using Toybox.WatchUi;
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 3; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 4; ]
+using Toybox.Graphics;
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 5; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 7; ]
+module Rez {
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 8; ]
+    module Drawables {
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
+        var Fox as Symbol;
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 10; @position = 27; initialized = true; ]
+        var SpaceFox as Symbol;
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 11; @position = 27; initialized = true; ]
+        var Space as Symbol;
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 12; @position = 27; initialized = true; ]
+        var PixelHeart as Symbol;
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 13; @position = 27; initialized = true; ]
+        var NotificationNone as Symbol;
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 14; @position = 27; initialized = true; ]
+        var NotificationNew as Symbol;
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 15; @position = 27; initialized = true; ]
+        var LauncherIcon as Symbol;
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 18; ]
+    module Fonts {
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 18; ]
+        <init> {
+        }
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 21; ]
+    module JsonData {
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 21; ]
+        <init> {
+        }
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 24; ]
+    module Layouts {
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 24; ]
+        <init> {
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 25; ]
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_bin_gen_006_B4426_00_source_Rez_mcgen_25_73_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 26 12 ]
+            [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_bin_gen_006_B4426_00_source_Rez_mcgen_25_73_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_bin_gen_006_B4426_00_source_Rez_mcgen_25_73_stop" ]
+            %rez_cmp_local_custom_drawable_Background.1 = local;
+            %tmp.4 = getv ? :Background;
+            %tmp.5 = newd 1;
+            %tmp.7 = const :identifier;
+            %tmp.8 = "Background";
+            %tmp.9 = dup %tmp.5;
+            %tmp.10 = aputv %tmp.9 %tmp.7 %tmp.8;
+            %tmp.1 = newc %tmp.4 (%tmp.10);
+            lputv %rez_cmp_local_custom_drawable_Background.1 %tmp.1;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 28 12 ]
+            [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_bin_gen_006_B4426_00_source_Rez_mcgen_25_73_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_bin_gen_006_B4426_00_source_Rez_mcgen_25_73_stop" ]
+            %rez_cmp_local_text_TimeLabelHours.2 = local;
+            %tmp.13 = getm $.Toybox.WatchUi;
+            %tmp.14 = getv function ? %tmp.13 :Text;
+            %tmp.15 = newd 6;
+            %tmp.17 = const :identifier;
+            %tmp.18 = "TimeLabelHours";
+            %tmp.19 = dup %tmp.15;
+            %tmp.20 = aputv %tmp.19 %tmp.17 %tmp.18;
+            %tmp.22 = const :color;
+            %tmp.23 = getm $.Toybox.Graphics;
+            %tmp.24 = getv %tmp.23 :COLOR_WHITE;
+            %tmp.25 = dup %tmp.20;
+            %tmp.26 = aputv %tmp.25 %tmp.22 %tmp.24;
+            %tmp.28 = const :locX;
+            %tmp.29 = 390;
+            %tmp.30 = 0.5;
+            %tmp.31 = mul %tmp.29 %tmp.30;
+            %tmp.32 = dup %tmp.26;
+            %tmp.33 = aputv %tmp.32 %tmp.28 %tmp.31;
+            %tmp.35 = const :locY;
+            %tmp.36 = 390;
+            %tmp.37 = lgetv %dc;
+            %tmp.38 = getv function %tmp.37 :getFontHeight;
+            %tmp.39 = getm $.Toybox.Graphics;
+            %tmp.40 = getv %tmp.39 :FONT_NUMBER_THAI_HOT;
+            %tmp.41 = invoke %tmp.37 %tmp.38(%tmp.40);
+            %tmp.42 = sub %tmp.36 %tmp.41;
+            %tmp.43 = 0.5;
+            %tmp.44 = mul %tmp.42 %tmp.43;
+            %tmp.45 = dup %tmp.33;
+            %tmp.46 = aputv %tmp.45 %tmp.35 %tmp.44;
+            %tmp.48 = const :justification;
+            %tmp.49 = getm $.Toybox.Graphics;
+            %tmp.50 = getv %tmp.49 :TEXT_JUSTIFY_RIGHT;
+            %tmp.51 = dup %tmp.46;
+            %tmp.52 = aputv %tmp.51 %tmp.48 %tmp.50;
+            %tmp.54 = const :font;
+            %tmp.55 = getm $.Toybox.Graphics;
+            %tmp.56 = getv %tmp.55 :FONT_NUMBER_THAI_HOT;
+            %tmp.57 = dup %tmp.52;
+            %tmp.58 = aputv %tmp.57 %tmp.54 %tmp.56;
+            %tmp.11 = newc %tmp.14 (%tmp.58);
+            lputv %rez_cmp_local_text_TimeLabelHours.2 %tmp.11;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 30 12 ]
+            [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_bin_gen_006_B4426_00_source_Rez_mcgen_25_73_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_bin_gen_006_B4426_00_source_Rez_mcgen_25_73_stop" ]
+            %rez_cmp_local_text_TimeLabelMinutes.3 = local;
+            %tmp.61 = getm $.Toybox.WatchUi;
+            %tmp.62 = getv function ? %tmp.61 :Text;
+            %tmp.63 = newd 6;
+            %tmp.65 = const :identifier;
+            %tmp.66 = "TimeLabelMinutes";
+            %tmp.67 = dup %tmp.63;
+            %tmp.68 = aputv %tmp.67 %tmp.65 %tmp.66;
+            %tmp.70 = const :color;
+            %tmp.71 = getm $.Toybox.Graphics;
+            %tmp.72 = getv %tmp.71 :COLOR_WHITE;
+            %tmp.73 = dup %tmp.68;
+            %tmp.74 = aputv %tmp.73 %tmp.70 %tmp.72;
+            %tmp.76 = const :locX;
+            %tmp.77 = 390;
+            %tmp.78 = 0.5;
+            %tmp.79 = mul %tmp.77 %tmp.78;
+            %tmp.80 = dup %tmp.74;
+            %tmp.81 = aputv %tmp.80 %tmp.76 %tmp.79;
+            %tmp.83 = const :locY;
+            %tmp.84 = 390;
+            %tmp.85 = 32;
+            %tmp.86 = 100.0;
+            %tmp.87 = div %tmp.85 %tmp.86;
+            %tmp.88 = mul %tmp.84 %tmp.87;
+            %tmp.89 = dup %tmp.81;
+            %tmp.90 = aputv %tmp.89 %tmp.83 %tmp.88;
+            %tmp.92 = const :justification;
+            %tmp.93 = getm $.Toybox.Graphics;
+            %tmp.94 = getv %tmp.93 :TEXT_JUSTIFY_LEFT;
+            %tmp.95 = dup %tmp.90;
+            %tmp.96 = aputv %tmp.95 %tmp.92 %tmp.94;
+            %tmp.98 = const :font;
+            %tmp.99 = getm $.Toybox.Graphics;
+            %tmp.100 = getv %tmp.99 :FONT_NUMBER_MEDIUM;
+            %tmp.101 = dup %tmp.96;
+            %tmp.102 = aputv %tmp.101 %tmp.98 %tmp.100;
+            %tmp.59 = newc %tmp.62 (%tmp.102);
+            lputv %rez_cmp_local_text_TimeLabelMinutes.3 %tmp.59;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 32 12 ]
+            [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_bin_gen_006_B4426_00_source_Rez_mcgen_25_73_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_bin_gen_006_B4426_00_source_Rez_mcgen_25_73_stop" ]
+            %rez_cmp_local_text_DateLabel.4 = local;
+            %tmp.105 = getm $.Toybox.WatchUi;
+            %tmp.106 = getv function ? %tmp.105 :Text;
+            %tmp.107 = newd 7;
+            %tmp.109 = const :identifier;
+            %tmp.110 = "DateLabel";
+            %tmp.111 = dup %tmp.107;
+            %tmp.112 = aputv %tmp.111 %tmp.109 %tmp.110;
+            %tmp.114 = const :color;
+            %tmp.115 = 0x8c28ad;
+            %tmp.116 = dup %tmp.112;
+            %tmp.117 = aputv %tmp.116 %tmp.114 %tmp.115;
+            %tmp.119 = const :locX;
+            %tmp.120 = 345;
+            %tmp.121 = dup %tmp.117;
+            %tmp.122 = aputv %tmp.121 %tmp.119 %tmp.120;
+            %tmp.124 = const :locY;
+            %tmp.125 = 165;
+            %tmp.126 = dup %tmp.122;
+            %tmp.127 = aputv %tmp.126 %tmp.124 %tmp.125;
+            %tmp.129 = const :text;
+            %tmp.130 = "00\n00";
+            %tmp.131 = dup %tmp.127;
+            %tmp.132 = aputv %tmp.131 %tmp.129 %tmp.130;
+            %tmp.134 = const :justification;
+            %tmp.135 = getm $.Toybox.Graphics;
+            %tmp.136 = getv %tmp.135 :TEXT_JUSTIFY_CENTER;
+            %tmp.137 = dup %tmp.132;
+            %tmp.138 = aputv %tmp.137 %tmp.134 %tmp.136;
+            %tmp.140 = const :font;
+            %tmp.141 = getm $.Toybox.Graphics;
+            %tmp.142 = getv %tmp.141 :FONT_XTINY;
+            %tmp.143 = dup %tmp.138;
+            %tmp.144 = aputv %tmp.143 %tmp.140 %tmp.142;
+            %tmp.103 = newc %tmp.106 (%tmp.144);
+            lputv %rez_cmp_local_text_DateLabel.4 %tmp.103;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 34 12 ]
+            [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_bin_gen_006_B4426_00_source_Rez_mcgen_25_73_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_bin_gen_006_B4426_00_source_Rez_mcgen_25_73_stop" ]
+            %rez_cmp_local_custom_drawable_StepCountDisplay.5 = local;
+            %tmp.148 = getv ? :CircularBar;
+            %tmp.149 = newd 12;
+            %tmp.151 = const :barThickness;
+            %tmp.152 = 6;
+            %tmp.153 = dup %tmp.149;
+            %tmp.154 = aputv %tmp.153 %tmp.151 %tmp.152;
+            %tmp.156 = const :identifier;
+            %tmp.157 = "StepCountDisplay";
+            %tmp.158 = dup %tmp.154;
+            %tmp.159 = aputv %tmp.158 %tmp.156 %tmp.157;
+            %tmp.161 = const :filledColorCritical;
+            %tmp.162 = 0xed3c28;
+            %tmp.163 = dup %tmp.159;
+            %tmp.164 = aputv %tmp.163 %tmp.161 %tmp.162;
+            %tmp.166 = const :lowThreshold;
+            %tmp.167 = 1;
+            %tmp.168 = dup %tmp.164;
+            %tmp.169 = aputv %tmp.168 %tmp.166 %tmp.167;
+            %tmp.171 = const :criticalThreshold;
+            %tmp.172 = 0.8;
+            %tmp.173 = dup %tmp.169;
+            %tmp.174 = aputv %tmp.173 %tmp.171 %tmp.172;
+            %tmp.176 = const :x;
+            %tmp.177 = 100;
+            %tmp.178 = dup %tmp.174;
+            %tmp.179 = aputv %tmp.178 %tmp.176 %tmp.177;
+            %tmp.181 = const :y;
+            %tmp.182 = 80;
+            %tmp.183 = dup %tmp.179;
+            %tmp.184 = aputv %tmp.183 %tmp.181 %tmp.182;
+            %tmp.186 = const :unfilledColor;
+            %tmp.187 = 0x777777;
+            %tmp.188 = dup %tmp.184;
+            %tmp.189 = aputv %tmp.188 %tmp.186 %tmp.187;
+            %tmp.191 = const :filledColor;
+            %tmp.192 = 0xCCCCCC;
+            %tmp.193 = dup %tmp.189;
+            %tmp.194 = aputv %tmp.193 %tmp.191 %tmp.192;
+            %tmp.196 = const :radius;
+            %tmp.197 = 28;
+            %tmp.198 = dup %tmp.194;
+            %tmp.199 = aputv %tmp.198 %tmp.196 %tmp.197;
+            %tmp.201 = const :percent;
+            %tmp.202 = .4;
+            %tmp.203 = dup %tmp.199;
+            %tmp.204 = aputv %tmp.203 %tmp.201 %tmp.202;
+            %tmp.206 = const :filledColorLow;
+            %tmp.207 = 0xe0ed28;
+            %tmp.208 = dup %tmp.204;
+            %tmp.209 = aputv %tmp.208 %tmp.206 %tmp.207;
+            %tmp.145 = newc %tmp.148 (%tmp.209);
+            lputv %rez_cmp_local_custom_drawable_StepCountDisplay.5 %tmp.145;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 36 12 ]
+            [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_bin_gen_006_B4426_00_source_Rez_mcgen_25_73_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_bin_gen_006_B4426_00_source_Rez_mcgen_25_73_stop" ]
+            %rez_cmp_local_text_StepCountLabel.6 = local;
+            %tmp.212 = getm $.Toybox.WatchUi;
+            %tmp.213 = getv function ? %tmp.212 :Text;
+            %tmp.214 = newd 7;
+            %tmp.216 = const :identifier;
+            %tmp.217 = "StepCountLabel";
+            %tmp.218 = dup %tmp.214;
+            %tmp.219 = aputv %tmp.218 %tmp.216 %tmp.217;
+            %tmp.221 = const :color;
+            %tmp.222 = getm $.Toybox.Graphics;
+            %tmp.223 = getv %tmp.222 :COLOR_WHITE;
+            %tmp.224 = dup %tmp.219;
+            %tmp.225 = aputv %tmp.224 %tmp.221 %tmp.223;
+            %tmp.227 = const :locX;
+            %tmp.228 = 100;
+            %tmp.229 = dup %tmp.225;
+            %tmp.230 = aputv %tmp.229 %tmp.227 %tmp.228;
+            %tmp.232 = const :locY;
+            %tmp.233 = 65;
+            %tmp.234 = dup %tmp.230;
+            %tmp.235 = aputv %tmp.234 %tmp.232 %tmp.233;
+            %tmp.237 = const :text;
+            %tmp.238 = "000";
+            %tmp.239 = dup %tmp.235;
+            %tmp.240 = aputv %tmp.239 %tmp.237 %tmp.238;
+            %tmp.242 = const :justification;
+            %tmp.243 = getm $.Toybox.Graphics;
+            %tmp.244 = getv %tmp.243 :TEXT_JUSTIFY_CENTER;
+            %tmp.245 = dup %tmp.240;
+            %tmp.246 = aputv %tmp.245 %tmp.242 %tmp.244;
+            %tmp.248 = const :font;
+            %tmp.249 = getm $.Toybox.Graphics;
+            %tmp.250 = getv %tmp.249 :FONT_XTINY;
+            %tmp.251 = dup %tmp.246;
+            %tmp.252 = aputv %tmp.251 %tmp.248 %tmp.250;
+            %tmp.210 = newc %tmp.213 (%tmp.252);
+            lputv %rez_cmp_local_text_StepCountLabel.6 %tmp.210;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 38 12 ]
+            [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_bin_gen_006_B4426_00_source_Rez_mcgen_25_73_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_bin_gen_006_B4426_00_source_Rez_mcgen_25_73_stop" ]
+            %rez_cmp_local_custom_drawable_HeartrateDisplay.7 = local;
+            %tmp.256 = getv ? :HeartRate;
+            %tmp.257 = newd 3;
+            %tmp.259 = const :identifier;
+            %tmp.260 = "HeartrateDisplay";
+            %tmp.261 = dup %tmp.257;
+            %tmp.262 = aputv %tmp.261 %tmp.259 %tmp.260;
+            %tmp.264 = const :locX;
+            %tmp.265 = 195;
+            %tmp.266 = dup %tmp.262;
+            %tmp.267 = aputv %tmp.266 %tmp.264 %tmp.265;
+            %tmp.269 = const :locY;
+            %tmp.270 = 40;
+            %tmp.271 = dup %tmp.267;
+            %tmp.272 = aputv %tmp.271 %tmp.269 %tmp.270;
+            %tmp.253 = newc %tmp.256 (%tmp.272);
+            lputv %rez_cmp_local_custom_drawable_HeartrateDisplay.7 %tmp.253;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 40 12 ]
+            [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_bin_gen_006_B4426_00_source_Rez_mcgen_25_73_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_bin_gen_006_B4426_00_source_Rez_mcgen_25_73_stop" ]
+            %rez_cmp_local_custom_drawable_NotificationCountDisplay.8 = local;
+            %tmp.276 = getv ? :NotificationDisplay;
+            %tmp.277 = newd 3;
+            %tmp.279 = const :identifier;
+            %tmp.280 = "NotificationCountDisplay";
+            %tmp.281 = dup %tmp.277;
+            %tmp.282 = aputv %tmp.281 %tmp.279 %tmp.280;
+            %tmp.284 = const :x;
+            %tmp.285 = 45;
+            %tmp.286 = dup %tmp.282;
+            %tmp.287 = aputv %tmp.286 %tmp.284 %tmp.285;
+            %tmp.289 = const :y;
+            %tmp.290 = 195;
+            %tmp.291 = dup %tmp.287;
+            %tmp.292 = aputv %tmp.291 %tmp.289 %tmp.290;
+            %tmp.273 = newc %tmp.276 (%tmp.292);
+            lputv %rez_cmp_local_custom_drawable_NotificationCountDisplay.8 %tmp.273;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 42 12 ]
+            [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_bin_gen_006_B4426_00_source_Rez_mcgen_25_73_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_bin_gen_006_B4426_00_source_Rez_mcgen_25_73_stop" ]
+            %rez_cmp_local_custom_drawable_BatteryDisplay.9 = local;
+            %tmp.296 = getv ? :CircularBar;
+            %tmp.297 = newd 12;
+            %tmp.299 = const :barThickness;
+            %tmp.300 = 6;
+            %tmp.301 = dup %tmp.297;
+            %tmp.302 = aputv %tmp.301 %tmp.299 %tmp.300;
+            %tmp.304 = const :identifier;
+            %tmp.305 = "BatteryDisplay";
+            %tmp.306 = dup %tmp.302;
+            %tmp.307 = aputv %tmp.306 %tmp.304 %tmp.305;
+            %tmp.309 = const :filledColorCritical;
+            %tmp.310 = 0xed3c28;
+            %tmp.311 = dup %tmp.307;
+            %tmp.312 = aputv %tmp.311 %tmp.309 %tmp.310;
+            %tmp.314 = const :lowThreshold;
+            %tmp.315 = 0.15;
+            %tmp.316 = dup %tmp.312;
+            %tmp.317 = aputv %tmp.316 %tmp.314 %tmp.315;
+            %tmp.319 = const :criticalThreshold;
+            %tmp.320 = 0.05;
+            %tmp.321 = dup %tmp.317;
+            %tmp.322 = aputv %tmp.321 %tmp.319 %tmp.320;
+            %tmp.324 = const :x;
+            %tmp.325 = 290;
+            %tmp.326 = dup %tmp.322;
+            %tmp.327 = aputv %tmp.326 %tmp.324 %tmp.325;
+            %tmp.329 = const :y;
+            %tmp.330 = 80;
+            %tmp.331 = dup %tmp.327;
+            %tmp.332 = aputv %tmp.331 %tmp.329 %tmp.330;
+            %tmp.334 = const :unfilledColor;
+            %tmp.335 = 0x777777;
+            %tmp.336 = dup %tmp.332;
+            %tmp.337 = aputv %tmp.336 %tmp.334 %tmp.335;
+            %tmp.339 = const :filledColor;
+            %tmp.340 = 0x25d967;
+            %tmp.341 = dup %tmp.337;
+            %tmp.342 = aputv %tmp.341 %tmp.339 %tmp.340;
+            %tmp.344 = const :radius;
+            %tmp.345 = 28;
+            %tmp.346 = dup %tmp.342;
+            %tmp.347 = aputv %tmp.346 %tmp.344 %tmp.345;
+            %tmp.349 = const :percent;
+            %tmp.350 = 0.6;
+            %tmp.351 = dup %tmp.347;
+            %tmp.352 = aputv %tmp.351 %tmp.349 %tmp.350;
+            %tmp.354 = const :filledColorLow;
+            %tmp.355 = 0xe0ed28;
+            %tmp.356 = dup %tmp.352;
+            %tmp.357 = aputv %tmp.356 %tmp.354 %tmp.355;
+            %tmp.293 = newc %tmp.296 (%tmp.357);
+            lputv %rez_cmp_local_custom_drawable_BatteryDisplay.9 %tmp.293;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 44 12 ]
+            [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_bin_gen_006_B4426_00_source_Rez_mcgen_25_73_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_bin_gen_006_B4426_00_source_Rez_mcgen_25_73_stop" ]
+            %rez_cmp_local_text_BatteryLabel.10 = local;
+            %tmp.360 = getm $.Toybox.WatchUi;
+            %tmp.361 = getv function ? %tmp.360 :Text;
+            %tmp.362 = newd 7;
+            %tmp.364 = const :identifier;
+            %tmp.365 = "BatteryLabel";
+            %tmp.366 = dup %tmp.362;
+            %tmp.367 = aputv %tmp.366 %tmp.364 %tmp.365;
+            %tmp.369 = const :color;
+            %tmp.370 = getm $.Toybox.Graphics;
+            %tmp.371 = getv %tmp.370 :COLOR_WHITE;
+            %tmp.372 = dup %tmp.367;
+            %tmp.373 = aputv %tmp.372 %tmp.369 %tmp.371;
+            %tmp.375 = const :locX;
+            %tmp.376 = 290;
+            %tmp.377 = dup %tmp.373;
+            %tmp.378 = aputv %tmp.377 %tmp.375 %tmp.376;
+            %tmp.380 = const :locY;
+            %tmp.381 = 65;
+            %tmp.382 = dup %tmp.378;
+            %tmp.383 = aputv %tmp.382 %tmp.380 %tmp.381;
+            %tmp.385 = const :text;
+            %tmp.386 = "100%";
+            %tmp.387 = dup %tmp.383;
+            %tmp.388 = aputv %tmp.387 %tmp.385 %tmp.386;
+            %tmp.390 = const :justification;
+            %tmp.391 = getm $.Toybox.Graphics;
+            %tmp.392 = getv %tmp.391 :TEXT_JUSTIFY_CENTER;
+            %tmp.393 = dup %tmp.388;
+            %tmp.394 = aputv %tmp.393 %tmp.390 %tmp.392;
+            %tmp.396 = const :font;
+            %tmp.397 = getm $.Toybox.Graphics;
+            %tmp.398 = getv %tmp.397 :FONT_XTINY;
+            %tmp.399 = dup %tmp.394;
+            %tmp.400 = aputv %tmp.399 %tmp.396 %tmp.398;
+            %tmp.358 = newc %tmp.361 (%tmp.400);
+            lputv %rez_cmp_local_text_BatteryLabel.10 %tmp.358;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 46 12 ]
+            %tmp.401 = newa Array<WatchUi.Drawable> 10;
+            %tmp.403 = lgetv %rez_cmp_local_custom_drawable_Background.1;
+            %tmp.404 = dup %tmp.401;
+            %tmp.405 = aputv %tmp.404 0 %tmp.403;
+            %tmp.407 = lgetv %rez_cmp_local_text_TimeLabelHours.2;
+            %tmp.408 = dup %tmp.405;
+            %tmp.409 = aputv %tmp.408 1 %tmp.407;
+            %tmp.411 = lgetv %rez_cmp_local_text_TimeLabelMinutes.3;
+            %tmp.412 = dup %tmp.409;
+            %tmp.413 = aputv %tmp.412 2 %tmp.411;
+            %tmp.415 = lgetv %rez_cmp_local_text_DateLabel.4;
+            %tmp.416 = dup %tmp.413;
+            %tmp.417 = aputv %tmp.416 3 %tmp.415;
+            %tmp.419 = lgetv %rez_cmp_local_custom_drawable_StepCountDisplay.5;
+            %tmp.420 = dup %tmp.417;
+            %tmp.421 = aputv %tmp.420 4 %tmp.419;
+            %tmp.423 = lgetv %rez_cmp_local_text_StepCountLabel.6;
+            %tmp.424 = dup %tmp.421;
+            %tmp.425 = aputv %tmp.424 5 %tmp.423;
+            %tmp.427 = lgetv %rez_cmp_local_custom_drawable_HeartrateDisplay.7;
+            %tmp.428 = dup %tmp.425;
+            %tmp.429 = aputv %tmp.428 6 %tmp.427;
+            %tmp.431 = lgetv %rez_cmp_local_custom_drawable_NotificationCountDisplay.8;
+            %tmp.432 = dup %tmp.429;
+            %tmp.433 = aputv %tmp.432 7 %tmp.431;
+            %tmp.435 = lgetv %rez_cmp_local_custom_drawable_BatteryDisplay.9;
+            %tmp.436 = dup %tmp.433;
+            %tmp.437 = aputv %tmp.436 8 %tmp.435;
+            %tmp.439 = lgetv %rez_cmp_local_text_BatteryLabel.10;
+            %tmp.440 = dup %tmp.437;
+            %tmp.441 = aputv %tmp.440 9 %tmp.439;
+            ret %tmp.441;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_bin_gen_006_B4426_00_source_Rez_mcgen_25_73_stop:
+        }
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 50; ]
+    module Menus {
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 50; ]
+        <init> {
+        }
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 53; ]
+    module Strings {
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 53; ]
+        <init> {
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 54; @position = 27; initialized = true; ]
+        var ColorLightGray as Symbol;
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 55; @position = 27; initialized = true; ]
+        var ColorBlue as Symbol;
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 56; @position = 27; initialized = true; ]
+        var BackgroundColorTitle as Symbol;
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 57; @position = 27; initialized = true; ]
+        var ColorDarkGray as Symbol;
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 58; @position = 27; initialized = true; ]
+        var Image3None as Symbol;
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 59; @position = 27; initialized = true; ]
+        var ColorBlack as Symbol;
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 60; @position = 27; initialized = true; ]
+        var BackgroundImageTitle as Symbol;
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 61; @position = 27; initialized = true; ]
+        var AppName as Symbol;
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 62; @position = 27; initialized = true; ]
+        var Image1Fox as Symbol;
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 63; @position = 27; initialized = true; ]
+        var ColorRed as Symbol;
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 64; @position = 27; initialized = true; ]
+        var ForegroundColorTitle as Symbol;
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 65; @position = 27; initialized = true; ]
+        var Image0Space as Symbol;
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 66; @position = 27; initialized = true; ]
+        var Image2SpaceFox as Symbol;
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 67; @position = 27; initialized = true; ]
+        var ColorPurple as Symbol;
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 68; @position = 27; initialized = true; ]
+        var ColorWhite as Symbol;
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 69; @position = 27; initialized = true; ]
+        var ColorGreen as Symbol;
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 70; @position = 27; initialized = true; ]
+        var AccentColorTitle as Symbol;
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 73; ]
+    module Styles {
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 73; ]
+        <init> {
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 74; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 74; ]
+            <init> {
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 75 18 ]
+                %tmp.442 = getm $.Toybox.Graphics;
+                %tmp.443 = getv %tmp.442 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.443;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 76 18 ]
+                %tmp.444 = getm $.Toybox.Graphics;
+                %tmp.445 = getv %tmp.444 :FONT_SMALL;
+                putv self :font %tmp.445;
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 75; @position = 18; ]
+            const justification;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 76; @position = 18; ]
+            const font;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 79; ]
+        module system_size__menu_header {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 79; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 80; @position = 18; ]
+            const width as Number = 390;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 81; @position = 18; ]
+            const height as Number = 90;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 84; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 84; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 85; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 88; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 88; ]
+            <init> {
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 89 18 ]
+                %tmp.446 = getm $.Toybox.Graphics;
+                %tmp.447 = getv %tmp.446 :TEXT_JUSTIFY_CENTER;
+                %tmp.448 = getm $.Toybox.Graphics;
+                %tmp.449 = getv %tmp.448 :TEXT_JUSTIFY_VCENTER;
+                %tmp.450 = bitor %tmp.447 %tmp.449;
+                putv self :justification %tmp.450;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 90 18 ]
+                %tmp.451 = getm $.Toybox.Graphics;
+                %tmp.452 = getv %tmp.451 :FONT_SMALL;
+                putv self :font %tmp.452;
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 89; @position = 18; ]
+            const justification;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 90; @position = 18; ]
+            const font;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 93; ]
+        module prompt_loc__body_no_title {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 93; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 94; @position = 18; ]
+            const x as Number = 39;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 95; @position = 18; ]
+            const y as Number = 58;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 98; ]
+        module system_icon_dark__about {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 98; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 99; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_dark__about.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 100; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 101; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 102; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 105; ]
+        module system_icon_light__question {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 105; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 106; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_light__question.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 107; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 108; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 109; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 112; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 112; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 113; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 116; ]
+        module prompt_font__title {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 116; ]
+            <init> {
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 117 18 ]
+                %tmp.453 = getm $.Toybox.Graphics;
+                %tmp.454 = getv %tmp.453 :TEXT_JUSTIFY_CENTER;
+                %tmp.455 = getm $.Toybox.Graphics;
+                %tmp.456 = getv %tmp.455 :TEXT_JUSTIFY_VCENTER;
+                %tmp.457 = bitor %tmp.454 %tmp.456;
+                putv self :justification %tmp.457;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 118 18 ]
+                %tmp.458 = getm $.Toybox.Graphics;
+                %tmp.459 = getv %tmp.458 :FONT_XTINY;
+                putv self :font %tmp.459;
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 117; @position = 18; ]
+            const justification;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 118; @position = 18; ]
+            const font;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 121; ]
+        module system_icon_dark__discard {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 121; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 122; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_dark__discard.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 123; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 124; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 125; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 128; ]
+        module system_size__menu_item {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 128; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 129; @position = 18; ]
+            const width as Number = 390;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 130; @position = 18; ]
+            const height as Number = 100;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 133; ]
+        module system_color_dark__text {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 133; ]
+            <init> {
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 135 18 ]
+                %tmp.460 = getm $.Toybox.Graphics;
+                %tmp.461 = getv %tmp.460 :COLOR_TRANSPARENT;
+                putv self :background %tmp.461;
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 134; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 135; @position = 18; ]
+            const background;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 138; ]
+        module system_icon_destructive__discard {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 138; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 139; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_destructive__discard.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 140; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 143; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 143; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 144; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_dark__hint_action_menu.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 145; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 148; ]
+        module prompt_size__title {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 148; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 149; @position = 18; ]
+            const width as Number = 165;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 150; @position = 18; ]
+            const height as Number = 70;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 153; ]
+        module confirmation_font__body {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 153; ]
+            <init> {
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 154 18 ]
+                %tmp.462 = getm $.Toybox.Graphics;
+                %tmp.463 = getv %tmp.462 :TEXT_JUSTIFY_CENTER;
+                %tmp.464 = getm $.Toybox.Graphics;
+                %tmp.465 = getv %tmp.464 :TEXT_JUSTIFY_VCENTER;
+                %tmp.466 = bitor %tmp.463 %tmp.465;
+                putv self :justification %tmp.466;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 155 18 ]
+                %tmp.467 = getm $.Toybox.Graphics;
+                %tmp.468 = getv %tmp.467 :FONT_TINY;
+                putv self :font %tmp.468;
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 154; @position = 18; ]
+            const justification;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 155; @position = 18; ]
+            const font;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 158; ]
+        module system_color_dark__background {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 158; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 159; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 160; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 163; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 163; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 164; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 167; ]
+        module system_size__launch_icon {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 167; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 168; @position = 18; ]
+            const scaleX as Number = 70;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 169; @position = 18; ]
+            const scaleY as Number = 70;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 170; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 173; ]
+        module confirmation_input__confirm {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 173; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 174; @position = 18; ]
+            const y1 as Number = 297;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 175; @position = 18; ]
+            const x1 as Number = 72;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 176; @position = 18; ]
+            const y2 as Number = 390;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 177; @position = 18; ]
+            const x2 as Number = 318;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 180; ]
+        module prompt_font__body_with_title {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 180; ]
+            <init> {
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 181 18 ]
+                %tmp.469 = getm $.Toybox.Graphics;
+                %tmp.470 = getv %tmp.469 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.470;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 182 18 ]
+                %tmp.471 = getm $.Toybox.Graphics;
+                %tmp.472 = getv %tmp.471 :FONT_TINY;
+                putv self :font %tmp.472;
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 181; @position = 18; ]
+            const justification;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 182; @position = 18; ]
+            const font;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 185; ]
+        module confirmation_loc__body {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 185; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 186; @position = 18; ]
+            const x as Number = 80;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 187; @position = 18; ]
+            const y as Number = 78;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 190; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 190; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 191; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 194; ]
+        module prompt_color_dark__background {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 194; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 195; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 196; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 199; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 199; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 200; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_destructive__hint_action_menu.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 201; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 204; ]
+        module system_loc__hint_action_menu {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 204; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 205; @position = 18; ]
+            const x as Number = 195;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 206; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 207; @position = 18; ]
+            const y as Number = 318;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 210; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 210; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 211; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\confirmation_icon__hint_completion.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 212; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 215; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 215; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 216; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 219; ]
+        module prompt_size__body_no_title {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 219; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 220; @position = 18; ]
+            const width as Number = 312;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 221; @position = 18; ]
+            const height as Number = 253;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 224; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 224; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 225; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 228; ]
+        module prompt_color_light__background {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 228; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 229; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 230; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 233; ]
+        module confirmation_input__delete {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 233; ]
+            <init> {
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 234 18 ]
+                %tmp.473 = getm $.Toybox.WatchUi;
+                %tmp.474 = getv %tmp.473 :KEY_ENTER;
+                putv self :button %tmp.474;
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 234; @position = 18; ]
+            const button;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 237; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 237; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 238; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 241; ]
+        module system_input__action_menu {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 241; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 242; @position = 18; ]
+            const y1 as Number = 318;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 243; @position = 18; ]
+            const x1 as Number = 97;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 244; @position = 18; ]
+            const y2 as Number = 390;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 245; @position = 18; ]
+            const x2 as Number = 293;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 248; ]
+        module system_icon_light__save {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 248; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 249; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_light__save.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 250; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 251; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 252; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 255; ]
+        module prompt_color_light__body {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 255; ]
+            <init> {
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 257 18 ]
+                %tmp.475 = getm $.Toybox.Graphics;
+                %tmp.476 = getv %tmp.475 :COLOR_TRANSPARENT;
+                putv self :background %tmp.476;
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 256; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 257; @position = 18; ]
+            const background;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 260; ]
+        module system_loc__subwindow {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 260; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 261; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 264; ]
+        module system_icon_light__warning {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 264; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 265; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_light__warning.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 266; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 267; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 268; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 271; ]
+        module confirmation_color_light__body {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 271; ]
+            <init> {
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 273 18 ]
+                %tmp.477 = getm $.Toybox.Graphics;
+                %tmp.478 = getv %tmp.477 :COLOR_TRANSPARENT;
+                putv self :background %tmp.478;
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 272; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 273; @position = 18; ]
+            const background;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 276; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 276; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 277; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\confirmation_icon__hint_keep.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 278; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 281; ]
+        module activity_color_light__background {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 281; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 282; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 283; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 286; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 286; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 287; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_positive__hint_button_right_top.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 288; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 291; ]
+        module system_size__screen {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 291; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 292; @position = 18; ]
+            const width as Number = 390;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 293; @position = 18; ]
+            const height as Number = 390;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 296; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 296; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 297; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 298; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 301; ]
+        module system_color_light__background {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 301; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 302; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 303; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 306; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 306; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 307; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 308; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 311; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 311; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 312; @position = 18; ]
+            const x as Number = 195;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 313; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 314; @position = 18; ]
+            const y as Number = 297;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 317; ]
+        module activity_color_dark__text {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 317; ]
+            <init> {
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 319 18 ]
+                %tmp.479 = getm $.Toybox.Graphics;
+                %tmp.480 = getv %tmp.479 :COLOR_TRANSPARENT;
+                putv self :background %tmp.480;
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 318; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 319; @position = 18; ]
+            const background;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 322; ]
+        module confirmation_input__keep {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 322; ]
+            <init> {
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 323 18 ]
+                %tmp.481 = getm $.Toybox.WatchUi;
+                %tmp.482 = getv %tmp.481 :KEY_ESC;
+                putv self :button %tmp.482;
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 323; @position = 18; ]
+            const button;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 326; ]
+        module prompt_loc__body_with_title {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 326; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 327; @position = 18; ]
+            const x as Number = 39;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 328; @position = 18; ]
+            const y as Number = 98;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 331; ]
+        module system_icon_dark__search {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 331; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 332; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_dark__search.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 333; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 334; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 335; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 338; ]
+        module activity_color_light__text {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 338; ]
+            <init> {
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 340 18 ]
+                %tmp.483 = getm $.Toybox.Graphics;
+                %tmp.484 = getv %tmp.483 :COLOR_TRANSPARENT;
+                putv self :background %tmp.484;
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 339; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 340; @position = 18; ]
+            const background;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 343; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 343; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 344; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\confirmation_icon__hint_keep.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 345; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 348; ]
+        module system_icon_dark__save {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 348; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 349; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_dark__save.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 350; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 351; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 352; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 355; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 355; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 356; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 359; ]
+        module system_icon_light__search {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 359; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 360; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_light__search.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 361; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 362; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 363; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 366; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 366; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 367; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 370; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 370; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 371; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 374; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 374; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 375; @position = 18; ]
+            const x as Number = 304;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 376; @position = 18; ]
+            const y as Number = 234;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 379; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 379; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 380; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\confirmation_icon__hint_reject.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 381; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 384; ]
+        module confirmation_color_dark__body {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 384; ]
+            <init> {
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 386 18 ]
+                %tmp.485 = getm $.Toybox.Graphics;
+                %tmp.486 = getv %tmp.485 :COLOR_TRANSPARENT;
+                putv self :background %tmp.486;
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 385; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 386; @position = 18; ]
+            const background;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 389; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 389; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 390; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\confirmation_icon__hint_completion.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 391; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 394; ]
+        module prompt_color_dark__title {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 394; ]
+            <init> {
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 396 18 ]
+                %tmp.487 = getm $.Toybox.Graphics;
+                %tmp.488 = getv %tmp.487 :COLOR_TRANSPARENT;
+                putv self :background %tmp.488;
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 395; @position = 18; ]
+            const color as Number = 0xB3B3B3;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 396; @position = 18; ]
+            const background;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 399; ]
+        module system_icon_destructive__cancel {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 399; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 400; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_destructive__cancel.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 401; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 404; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 404; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 405; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 406; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 409; ]
+        module prompt_loc__title {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 409; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 410; @position = 18; ]
+            const x as Number = 113;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 411; @position = 18; ]
+            const y as Number = 19;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 414; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 414; ]
+            <init> {
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 415 18 ]
+                %tmp.489 = getm $.Toybox.Graphics;
+                %tmp.490 = getv %tmp.489 :TEXT_JUSTIFY_CENTER;
+                %tmp.491 = getm $.Toybox.Graphics;
+                %tmp.492 = getv %tmp.491 :TEXT_JUSTIFY_VCENTER;
+                %tmp.493 = bitor %tmp.490 %tmp.492;
+                putv self :justification %tmp.493;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 416 18 ]
+                %tmp.494 = getm $.Toybox.Graphics;
+                %tmp.495 = getv %tmp.494 :FONT_SMALL;
+                putv self :font %tmp.495;
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 415; @position = 18; ]
+            const justification;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 416; @position = 18; ]
+            const font;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 419; ]
+        module prompt_color_light__title {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 419; ]
+            <init> {
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 421 18 ]
+                %tmp.496 = getm $.Toybox.Graphics;
+                %tmp.497 = getv %tmp.496 :COLOR_TRANSPARENT;
+                putv self :background %tmp.497;
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 420; @position = 18; ]
+            const color as Number = 0xB3B3B3;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 421; @position = 18; ]
+            const background;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 424; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 424; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 425; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 426; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 429; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 429; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 430; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 433; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 433; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 434; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\confirmation_icon__hint_keep.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 435; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 438; ]
+        module system_icon_light__cancel {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 438; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 439; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_light__cancel.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 440; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 441; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 442; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 445; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 445; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 446; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\confirmation_icon__hint_reject.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 447; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 450; ]
+        module system_icon_light__about {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 450; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 451; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_light__about.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 452; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 453; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 454; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 457; ]
+        module system_size__toast_icon {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 457; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 458; @position = 18; ]
+            const scaleX as Number = 40;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 459; @position = 18; ]
+            const scaleY as Number = 40;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 460; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 463; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 463; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 464; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 467; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 467; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 468; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\confirmation_icon__hint_reject.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 469; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 472; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 472; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 473; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_light__hint_action_menu.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 474; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 477; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 477; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 478; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 481; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 481; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 482; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 485; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 485; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 486; @position = 18; ]
+            const x as Number = 195;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 487; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 488; @position = 18; ]
+            const y as Number = 0;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 491; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 491; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 492; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\confirmation_icon__hint_delete.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 493; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 496; ]
+        module activity_color_dark__background {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 496; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 497; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 498; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 501; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 501; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 502; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 505; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 505; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 506; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 509; ]
+        module system_size__menu_icon {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 509; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 510; @position = 18; ]
+            const scaleX as Number = 45;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 511; @position = 18; ]
+            const scaleY as Number = 45;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 512; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 515; ]
+        module system_icon_destructive__warning {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 515; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 516; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_destructive__warning.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 517; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 520; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 520; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 521; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 524; ]
+        module system_icon_dark__cancel {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 524; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 525; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_dark__cancel.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 526; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 527; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 528; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 531; ]
+        module prompt_size__body_with_title {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 531; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 532; @position = 18; ]
+            const width as Number = 312;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 533; @position = 18; ]
+            const height as Number = 215;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 536; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 536; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 537; @position = 18; ]
+            const x as Number = 318;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 538; @position = 18; ]
+            const y as Number = 59;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 541; ]
+        module system_color_light__text {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 541; ]
+            <init> {
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 543 18 ]
+                %tmp.498 = getm $.Toybox.Graphics;
+                %tmp.499 = getv %tmp.498 :COLOR_TRANSPARENT;
+                putv self :background %tmp.499;
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 542; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 543; @position = 18; ]
+            const background;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 546; ]
+        module system_icon_light__check {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 546; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 547; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_light__check.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 548; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 549; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 550; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 553; ]
+        module confirmation_input__reject {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 553; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 554; @position = 18; ]
+            const y1 as Number = 0;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 555; @position = 18; ]
+            const x1 as Number = 97;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 556; @position = 18; ]
+            const y2 as Number = 76;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 557; @position = 18; ]
+            const x2 as Number = 293;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 560; ]
+        module system_icon_light__revert {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 560; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 561; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_light__revert.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 562; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 563; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 564; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 567; ]
+        module system_size__subwindow {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 567; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 568; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 571; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 571; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 572; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 575; ]
+        module system_icon_dark__check {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 575; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 576; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_dark__check.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 577; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 578; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 579; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 582; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 582; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 583; @position = 18; ]
+            const x as Number = 304;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 584; @position = 18; ]
+            const y as Number = 234;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 587; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 587; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 588; @position = 18; ]
+            const x as Number = 309;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 589; @position = 18; ]
+            const y as Number = 47;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 592; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 592; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 593; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_positive__hint_action_menu.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 594; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 597; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 597; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 598; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 601; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 601; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 602; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 605; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 605; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 606; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 607; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 610; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 610; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 611; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_positive__hint_button_right_bottom.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 612; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 615; ]
+        module system_icon_dark__revert {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 615; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 616; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_dark__revert.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 617; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 618; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 619; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 622; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 622; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 623; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\confirmation_icon__hint_delete.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 624; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 627; ]
+        module system_icon_dark__question {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 627; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 628; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_dark__question.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 629; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 630; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 631; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 634; ]
+        module system_icon_light__discard {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 634; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 635; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_light__discard.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 636; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 637; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 638; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 641; ]
+        module device_info {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 641; ]
+            <init> {
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 643 18 ]
+                %tmp.500 = getm $.Toybox.System;
+                %tmp.501 = getv %tmp.500 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.501;
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 642; @position = 18; ]
+            const screenWidth as Number = 390;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 643; @position = 18; ]
+            const screenShape;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 644; @position = 18; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 645; @position = 18; ]
+            const screenHeight as Number = 390;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 646; @position = 18; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 647; @position = 18; ]
+            const hasEnhancedReadabilityMode as Boolean = true;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 650; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 650; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 651; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\confirmation_icon__hint_completion.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 652; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 655; ]
+        module prompt_font__body_no_title {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 655; ]
+            <init> {
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 656 18 ]
+                %tmp.502 = getm $.Toybox.Graphics;
+                %tmp.503 = getv %tmp.502 :TEXT_JUSTIFY_CENTER;
+                %tmp.504 = getm $.Toybox.Graphics;
+                %tmp.505 = getv %tmp.504 :TEXT_JUSTIFY_VCENTER;
+                %tmp.506 = bitor %tmp.503 %tmp.505;
+                putv self :justification %tmp.506;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 657 18 ]
+                %tmp.507 = getm $.Toybox.Graphics;
+                %tmp.508 = getv %tmp.507 :FONT_TINY;
+                putv self :font %tmp.508;
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 656; @position = 18; ]
+            const justification;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 657; @position = 18; ]
+            const font;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 660; ]
+        module prompt_size__title_icon {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 660; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 661; @position = 18; ]
+            const scaleX as Float = 0.12;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 662; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 665; ]
+        module system_icon_dark__warning {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 665; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 666; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_dark__warning.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 667; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 668; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 669; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 672; ]
+        module prompt_loc__title_icon {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 672; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 673; @position = 18; ]
+            const x as Number = 195;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 674; @position = 18; ]
+            const y as Number = 39;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 675; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 676; @position = 18; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 679; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 679; ]
+            <init> {
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 680 18 ]
+                %tmp.509 = getm $.Toybox.Graphics;
+                %tmp.510 = getv %tmp.509 :TEXT_JUSTIFY_CENTER;
+                %tmp.511 = getm $.Toybox.Graphics;
+                %tmp.512 = getv %tmp.511 :TEXT_JUSTIFY_VCENTER;
+                %tmp.513 = bitor %tmp.510 %tmp.512;
+                putv self :justification %tmp.513;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 681 18 ]
+                %tmp.514 = getm $.Toybox.Graphics;
+                %tmp.515 = getv %tmp.514 :FONT_TINY;
+                putv self :font %tmp.515;
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 680; @position = 18; ]
+            const justification;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 681; @position = 18; ]
+            const font;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 684; ]
+        module prompt_color_dark__body {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 684; ]
+            <init> {
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen" 686 18 ]
+                %tmp.516 = getm $.Toybox.Graphics;
+                %tmp.517 = getv %tmp.516 :COLOR_TRANSPARENT;
+                putv self :background %tmp.517;
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 685; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 686; @position = 18; ]
+            const background;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 689; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 689; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 690; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\confirmation_icon__hint_delete.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 691; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 694; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 694; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 695; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_light__hint_button_right_top.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 696; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 699; ]
+        module confirmation_size__body {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 699; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 700; @position = 18; ]
+            const width as Number = 231;
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 701; @position = 18; ]
+            const height as Number = 234;
+        }
+        [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 704; ]
+        module system_icon_positive__check {
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 704; ]
+            <init> {
+            }
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 705; @position = 18; ]
+            const filename as String = "C:\\Users\\mrblm\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_positive__check.svg";
+            [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 706; @position = 18; ]
+            const dithering as String = "none";
+        }
+    }
+}
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\bin\gen\006-B4426-00\source\Rez.mcgen"; @line = 1; ]
+<init> {
+}

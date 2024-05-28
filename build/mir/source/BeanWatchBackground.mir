@@ -1,0 +1,181 @@
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc"; @line = 2; ]
+import Toybox.Graphics;
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc"; @line = 3; ]
+import Toybox.Lang;
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc"; @line = 4; ]
+import Toybox.WatchUi;
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc"; @line = 6; ]
+class Background extends WatchUi.Drawable{
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc"; @line = 6; ]
+    <init> {
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc" 9 8 ]
+        %tmp.1 = newa 4;
+        %tmp.3 = getv ? :Rez;
+        %tmp.4 = getv %tmp.3 :Drawables;
+        %tmp.5 = getv %tmp.4 :Fox;
+        %tmp.6 = dup %tmp.1;
+        %tmp.7 = aputv %tmp.6 0 %tmp.5;
+        %tmp.9 = getv ? :Rez;
+        %tmp.10 = getv %tmp.9 :Drawables;
+        %tmp.11 = getv %tmp.10 :SpaceFox;
+        %tmp.12 = dup %tmp.7;
+        %tmp.13 = aputv %tmp.12 1 %tmp.11;
+        %tmp.15 = getv ? :Rez;
+        %tmp.16 = getv %tmp.15 :Drawables;
+        %tmp.17 = getv %tmp.16 :Space;
+        %tmp.18 = dup %tmp.13;
+        %tmp.19 = aputv %tmp.18 2 %tmp.17;
+        %tmp.20 = null;
+        %tmp.21 = dup %tmp.19;
+        %tmp.22 = aputv %tmp.21 3 %tmp.20;
+        putv self :imageResources %tmp.22;
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc"; @line = 7; @position = 16; ]
+    private
+    var image;
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc"; @line = 9; @position = 8; ]
+    var imageResources;
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc"; @line = 16; ]
+    function initialize(params) as Void {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchBackground_mc_16_32_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc" 17 8 ]
+        [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchBackground_mc_16_32_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchBackground_mc_16_32_stop" ]
+        %dictionary.1 = local;
+        %tmp.1 = newd 1;
+        %tmp.3 = const :identifier;
+        %tmp.4 = "Background";
+        %tmp.5 = dup %tmp.1;
+        %tmp.6 = aputv %tmp.5 %tmp.3 %tmp.4;
+        lputv %dictionary.1 %tmp.6;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc" 21 8 ]
+        %tmp.8 = getv ? :Drawable;
+        %tmp.9 = getv function %tmp.8 :initialize;
+        %tmp.11 = lgetv %dictionary.1;
+        invoke %tmp.8 %tmp.9(%tmp.11);
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchBackground_mc_16_32_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc"; @line = 24; ]
+    function onShow() {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchBackground_mc_24_22_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc" 25 8 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :getBitmap;
+        invoke %tmp.1 %tmp.2();
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchBackground_mc_24_22_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc"; @line = 28; ]
+    function onHide() {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchBackground_mc_28_22_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc" 29 8 ]
+        %tmp.1 = null;
+        putv self :image %tmp.1;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchBackground_mc_28_22_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc"; @line = 32; ]
+    function onSettingsChanged() {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchBackground_mc_32_33_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc" 33 8 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :getBitmap;
+        invoke %tmp.1 %tmp.2();
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchBackground_mc_32_33_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc"; @line = 36; ]
+    function getBitmap() {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchBackground_mc_36_25_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc" 37 8 ]
+        [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchBackground_mc_36_25_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchBackground_mc_36_25_stop" ]
+        %imageIndex.1 = local;
+        %tmp.1 = getm $.Toybox.Application;
+        %tmp.2 = getv %tmp.1 :Properties;
+        %tmp.3 = getv function %tmp.2 :getValue;
+        %tmp.4 = "BackgroundImage";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        %tmp.6 = as %tmp.5 Number;
+        lputv %imageIndex.1 %tmp.6;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc" 39 8 ]
+        [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchBackground_mc_36_25_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchBackground_mc_36_25_stop" ]
+        %imageResource.2 = local;
+        %tmp.8 = getv ? :imageResources;
+        %tmp.10 = lgetv %imageIndex.1;
+        %tmp.11 = agetv %tmp.8 %tmp.10;
+        lputv %imageResource.2 %tmp.11;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc" 40 8 ]
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchBackground_mc_40_8_if_stmt:
+        %tmp.13 = lgetv %imageResource.2;
+        %tmp.14 = null;
+        %tmp.15 = eq %tmp.13 %tmp.14;
+        bf %tmp.15 @D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchBackground_mc_40_8_if_end;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchBackground_mc_40_8_if_true:
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchBackground_mc_40_35_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc" 41 12 ]
+        %tmp.16 = null;
+        putv self :image %tmp.16;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc" 42 12 ]
+        ret ?;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchBackground_mc_40_35_stop:
+        goto @D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchBackground_mc_40_8_if_end;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchBackground_mc_40_8_if_end:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc" 45 8 ]
+        %tmp.17 = getm $.Toybox.WatchUi;
+        %tmp.18 = getv function %tmp.17 :loadResource;
+        %tmp.20 = lgetv %imageResource.2;
+        %tmp.21 = invoke %tmp.17 %tmp.18(%tmp.20);
+        putv self :image %tmp.21;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchBackground_mc_36_25_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc"; @line = 48; ]
+    function draw(dc as Dc) as Void {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchBackground_mc_48_36_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc" 49 8 ]
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchBackground_mc_49_8_if_stmt:
+        %tmp.2 = getv ? :image;
+        %tmp.3 = null;
+        %tmp.4 = eq %tmp.2 %tmp.3;
+        bf %tmp.4 @D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchBackground_mc_49_8_if_end;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchBackground_mc_49_8_if_true:
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchBackground_mc_49_27_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc" 50 12 ]
+        %tmp.5 = lgetv %dc;
+        %tmp.6 = getv function %tmp.5 :setColor;
+        %tmp.7 = getm $.Toybox.Graphics;
+        %tmp.8 = getv %tmp.7 :COLOR_TRANSPARENT;
+        %tmp.9 = getm $.Toybox.Application;
+        %tmp.10 = getv %tmp.9 :Properties;
+        %tmp.11 = getv function %tmp.10 :getValue;
+        %tmp.12 = "BackgroundColor";
+        %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
+        %tmp.14 = as %tmp.13 Number;
+        invoke %tmp.5 %tmp.6(%tmp.8, %tmp.14);
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc" 51 12 ]
+        %tmp.15 = lgetv %dc;
+        %tmp.16 = getv function %tmp.15 :clear;
+        invoke %tmp.15 %tmp.16();
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc" 52 12 ]
+        ret ?;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchBackground_mc_49_27_stop:
+        goto @D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchBackground_mc_49_8_if_end;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchBackground_mc_49_8_if_end:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc" 55 8 ]
+        %tmp.17 = lgetv %dc;
+        %tmp.18 = getv function %tmp.17 :clear;
+        invoke %tmp.17 %tmp.18();
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc" 57 8 ]
+        %tmp.19 = lgetv %dc;
+        %tmp.20 = getv function %tmp.19 :drawBitmap;
+        %tmp.21 = 0;
+        %tmp.22 = 0;
+        %tmp.24 = getv ? :image;
+        invoke %tmp.19 %tmp.20(%tmp.21, %tmp.22, %tmp.24);
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchBackground_mc_48_36_stop:
+    }
+}
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchBackground.mc"; @line = 1; ]
+<init> {
+}

@@ -1,0 +1,16 @@
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\AnchorDirection.mc"; @line = 1; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\AnchorDirection.mc"; @line = 3; ]
+enum {
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\AnchorDirection.mc"; @line = 4; @position = 1; ]
+    Top,
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\AnchorDirection.mc"; @line = 5; @position = 1; ]
+    Right,
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\AnchorDirection.mc"; @line = 6; @position = 1; ]
+    Bottom,
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\AnchorDirection.mc"; @line = 7; @position = 1; ]
+    Left
+}
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\AnchorDirection.mc"; @line = 1; ]
+<init> {
+}

@@ -1,0 +1,55 @@
+<layout id="WatchFace">
+    <drawable id="Background" class="Background" />
+    
+    <label id="TimeLabelHours" x="center" y="center" font="Graphics.FONT_NUMBER_THAI_HOT" justification="Graphics.TEXT_JUSTIFY_RIGHT" 
+        color="Graphics.COLOR_WHITE" />
+    <label id="TimeLabelMinutes" x="center" y="32%" font="Graphics.FONT_NUMBER_MEDIUM" justification="Graphics.TEXT_JUSTIFY_LEFT" 
+        color="Graphics.COLOR_WHITE" />
+    
+    <label id="DateLabel" x="345" y="165" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER" 
+        text="00\n00" color="0x8c28ad" />
+    
+    <drawable id="StepCountDisplay" class="CircularBar">
+        <param name="x">100</param>
+        <param name="y">80</param>
+        <param name="unfilledColor">0x777777</param>
+        <param name="filledColor">0xCCCCCC</param>
+        <param name="filledColorLow">0xe0ed28</param>
+        <param name="filledColorCritical">0xed3c28</param>
+        <param name="percent">.4</param>
+        <param name="radius">28</param>
+        <param name="barThickness">6</param>
+        <param name="lowThreshold">1</param>
+        <param name="criticalThreshold">0.8</param>
+    </drawable>
+    <label id="StepCountLabel" x="100" y="65" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER" 
+        text="000" color="Graphics.COLOR_WHITE" />
+
+    <drawable id="HeartrateDisplay" class="HeartRate">
+        <param name="locX">195</param>
+        <param name="locY">40</param>
+    </drawable>
+
+    <drawable id="NotificationCountDisplay" class="NotificationDisplay">
+        <param name="x">45</param>
+        <param name="y">195</param>
+    </drawable>
+    
+    <drawable id="BatteryDisplay" class="CircularBar">
+        <param name="x">290</param>
+        <param name="y">80</param>
+        <param name="unfilledColor">0x777777</param>
+        <param name="filledColor">0x25d967</param>
+        <param name="filledColorLow">0xe0ed28</param>
+        <param name="filledColorCritical">0xed3c28</param>
+        <param name="percent">0.6</param>
+        <param name="radius">28</param>
+        <param name="barThickness">6</param>
+        <param name="lowThreshold">0.15</param>
+        <param name="criticalThreshold">0.05</param>
+    </drawable>
+    <label id="BatteryLabel" x="290" y="65" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER" 
+        text="100%" color="Graphics.COLOR_WHITE" />
+    
+    
+</layout>

@@ -1,0 +1,276 @@
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc"; @line = 1; ]
+import Toybox.WatchUi;
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc"; @line = 2; ]
+import Toybox.Activity;
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc"; @line = 3; ]
+import Toybox.Graphics;
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc"; @line = 4; ]
+import Toybox.Application;
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc"; @line = 5; ]
+import Toybox.Lang;
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc"; @line = 7; ]
+class HeartRate extends WatchUi.Drawable{
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc"; @line = 8; @position = 16; ]
+    private
+    var myText;
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc"; @line = 9; @position = 16; ]
+    private
+    var x;
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc"; @line = 10; @position = 16; ]
+    private
+    var y;
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc"; @line = 11; @position = 16; ]
+    private
+    var heartLogo;
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc"; @line = 13; ]
+    function initialize(params) as Void {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_13_32_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc" 14 8 ]
+        %tmp.2 = getv ? :Drawable;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.5 = lgetv %params;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc" 15 8 ]
+        %tmp.6 = lgetv %params;
+        %tmp.7 = getv function %tmp.6 :get;
+        %tmp.9 = const :locX;
+        %tmp.10 = invoke %tmp.6 %tmp.7(%tmp.9);
+        putv self :x %tmp.10;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc" 16 8 ]
+        %tmp.11 = lgetv %params;
+        %tmp.12 = getv function %tmp.11 :get;
+        %tmp.14 = const :locY;
+        %tmp.15 = invoke %tmp.11 %tmp.12(%tmp.14);
+        putv self :y %tmp.15;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_13_32_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc"; @line = 19; ]
+    function onShow() {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_19_22_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc" 20 8 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :getBitmap;
+        invoke %tmp.1 %tmp.2();
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc" 21 8 ]
+        %tmp.3 = self;
+        %tmp.4 = getv function %tmp.3 :getText;
+        invoke %tmp.3 %tmp.4();
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_19_22_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc"; @line = 24; ]
+    function onHide() {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_24_22_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc" 25 8 ]
+        %tmp.1 = null;
+        putv self :heartLogo %tmp.1;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc" 26 8 ]
+        %tmp.2 = null;
+        putv self :myText %tmp.2;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_24_22_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc"; @line = 29; ]
+    function onSettingsChanged() {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_29_33_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc" 30 8 ]
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_30_8_if_stmt:
+        %tmp.2 = getv ? :myText;
+        %tmp.3 = null;
+        %tmp.4 = eq %tmp.2 %tmp.3;
+        bf %tmp.4 @D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_30_8_if_end;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_30_8_if_true:
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_30_28_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc" 31 12 ]
+        ret ?;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_30_28_stop:
+        goto @D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_30_8_if_end;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_30_8_if_end:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc" 34 8 ]
+        %tmp.5 = self;
+        %tmp.6 = getv function %tmp.5 :getText;
+        invoke %tmp.5 %tmp.6();
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_29_33_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc"; @line = 37; ]
+    function getBitmap() {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_37_25_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc" 38 8 ]
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.2 = getv function %tmp.1 :loadResource;
+        %tmp.4 = getv ? :Rez;
+        %tmp.5 = getv %tmp.4 :Drawables;
+        %tmp.6 = getv %tmp.5 :PixelHeart;
+        %tmp.7 = invoke %tmp.1 %tmp.2(%tmp.6);
+        putv self :heartLogo %tmp.7;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_37_25_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc"; @line = 41; ]
+    function draw(dc) {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_41_22_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc" 42 8 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :drawBitmap;
+        %tmp.4 = getv ? :x;
+        %tmp.6 = getv ? :heartLogo;
+        %tmp.7 = getv function %tmp.6 :getWidth;
+        %tmp.8 = invoke %tmp.6 %tmp.7();
+        %tmp.9 = 0.5;
+        %tmp.10 = mul %tmp.8 %tmp.9;
+        %tmp.11 = sub %tmp.4 %tmp.10;
+        %tmp.13 = getv ? :y;
+        %tmp.15 = getv ? :heartLogo;
+        %tmp.16 = getv function %tmp.15 :getHeight;
+        %tmp.17 = invoke %tmp.15 %tmp.16();
+        %tmp.18 = 0.5;
+        %tmp.19 = mul %tmp.17 %tmp.18;
+        %tmp.20 = sub %tmp.13 %tmp.19;
+        %tmp.22 = getv ? :heartLogo;
+        invoke %tmp.1 %tmp.2(%tmp.11, %tmp.20, %tmp.22);
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc" 44 8 ]
+        %tmp.23 = self;
+        %tmp.24 = getv function %tmp.23 :setHeartRateDisplay;
+        invoke %tmp.23 %tmp.24();
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc" 46 8 ]
+        %tmp.26 = getv ? :myText;
+        %tmp.27 = getv function %tmp.26 :draw;
+        %tmp.29 = lgetv %dc;
+        invoke %tmp.26 %tmp.27(%tmp.29);
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_41_22_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc"; @line = 49; ]
+    private
+    function setHeartRateDisplay() {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_49_43_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc" 50 2 ]
+        %tmp.2 = getv ? :myText;
+        %tmp.3 = getv function %tmp.2 :setText;
+        %tmp.4 = self;
+        %tmp.5 = getv function %tmp.4 :retrieveHeartRateString;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        invoke %tmp.2 %tmp.3(%tmp.6);
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_49_43_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc"; @line = 53; ]
+    private
+    function retrieveHeartRateString() as String {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_53_57_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc" 54 8 ]
+        [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_53_57_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_53_57_stop" ]
+        %info.1 = local;
+        %tmp.1 = getm $.Toybox.Activity;
+        %tmp.2 = getv function %tmp.1 :getActivityInfo;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %info.1 %tmp.3;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc" 55 8 ]
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_55_8_if_stmt:
+        %tmp.5 = lgetv %info.1;
+        %tmp.6 = null;
+        %tmp.7 = eq %tmp.5 %tmp.6;
+        bf %tmp.7 @D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_55_8_if_end;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_55_8_if_true:
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_55_26_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc" 56 12 ]
+        %tmp.8 = "-";
+        ret %tmp.8;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_55_26_stop:
+        goto @D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_55_8_if_end;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_55_8_if_end:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc" 58 8 ]
+        [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_53_57_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_53_57_stop" ]
+        %heartRate.2 = local;
+        %tmp.9 = lgetv %info.1;
+        %tmp.10 = getv %tmp.9 :currentHeartRate;
+        lputv %heartRate.2 %tmp.10;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc" 59 8 ]
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_59_8_if_stmt:
+        %tmp.12 = lgetv %heartRate.2;
+        %tmp.13 = null;
+        %tmp.14 = eq %tmp.12 %tmp.13;
+        bf %tmp.14 @D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_59_8_if_end;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_59_8_if_true:
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_59_31_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc" 60 12 ]
+        %tmp.15 = "-";
+        ret %tmp.15;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_59_31_stop:
+        goto @D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_59_8_if_end;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_59_8_if_end:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc" 63 2 ]
+        %tmp.16 = lgetv %heartRate.2;
+        %tmp.17 = getv function %tmp.16 :format;
+        %tmp.18 = "%d";
+        %tmp.19 = invoke %tmp.16 %tmp.17(%tmp.18);
+        ret %tmp.19;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_53_57_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc"; @line = 66; ]
+    private
+    function DoesDeviceSupportHeartrate() {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_66_50_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc" 67 5 ]
+        %tmp.2 = getv ? :ActivityMonitor;
+        %tmp.4 = const :INVALID_HR_SAMPLE;
+        %tmp.5 = canhazplz %tmp.2 %tmp.4;
+        ret %tmp.5;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_66_50_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc"; @line = 70; ]
+    private
+    function getText() {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_70_31_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc" 71 8 ]
+        [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_70_31_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_70_31_stop" ]
+        %foregroundColor.1 = local;
+        %tmp.1 = getm $.Toybox.Application;
+        %tmp.2 = getv %tmp.1 :Properties;
+        %tmp.3 = getv function %tmp.2 :getValue;
+        %tmp.4 = "ForegroundColor";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        lputv %foregroundColor.1 %tmp.5;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc" 73 8 ]
+        %tmp.8 = getm $.Toybox.WatchUi;
+        %tmp.9 = getv function ? %tmp.8 :Text;
+        %tmp.10 = newd 5;
+        %tmp.12 = const :text;
+        %tmp.13 = "00";
+        %tmp.14 = dup %tmp.10;
+        %tmp.15 = aputv %tmp.14 %tmp.12 %tmp.13;
+        %tmp.17 = const :color;
+        %tmp.19 = lgetv %foregroundColor.1;
+        %tmp.20 = dup %tmp.15;
+        %tmp.21 = aputv %tmp.20 %tmp.17 %tmp.19;
+        %tmp.23 = const :font;
+        %tmp.24 = getm $.Toybox.Graphics;
+        %tmp.25 = getv %tmp.24 :FONT_XTINY;
+        %tmp.26 = dup %tmp.21;
+        %tmp.27 = aputv %tmp.26 %tmp.23 %tmp.25;
+        %tmp.29 = const :locX;
+        %tmp.31 = getv ? :x;
+        %tmp.32 = dup %tmp.27;
+        %tmp.33 = aputv %tmp.32 %tmp.29 %tmp.31;
+        %tmp.35 = const :locY;
+        %tmp.37 = getv ? :y;
+        %tmp.38 = 15;
+        %tmp.39 = sub %tmp.37 %tmp.38;
+        %tmp.40 = dup %tmp.33;
+        %tmp.41 = aputv %tmp.40 %tmp.35 %tmp.39;
+        %tmp.6 = newc %tmp.9 (%tmp.41);
+        putv self :myText %tmp.6;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc" 80 8 ]
+        %tmp.43 = getv ? :myText;
+        %tmp.44 = getv function %tmp.43 :setJustification;
+        %tmp.45 = getm $.Toybox.Graphics;
+        %tmp.46 = getv %tmp.45 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.43 %tmp.44(%tmp.46);
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_HeartRate_mc_70_31_stop:
+    }
+}
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\HeartRate.mc"; @line = 1; ]
+<init> {
+}

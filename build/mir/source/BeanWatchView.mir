@@ -1,0 +1,658 @@
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 2; ]
+import Toybox.Graphics;
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 3; ]
+import Toybox.Lang;
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 4; ]
+import Toybox.System;
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 5; ]
+import Toybox.WatchUi;
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 7; ]
+import Toybox.Time;
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 8; ]
+import Toybox.Time.Gregorian;
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 10; ]
+using Toybox.Activity;
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 12; ]
+class BeanWatchView extends WatchUi.WatchFace{
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 12; ]
+    <init> {
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 12; ]
+    static
+    <init> {
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 15; @position = 16; ]
+    private
+    var foregroundColor;
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 18; ]
+    function initialize() as Void {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_18_26_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 19 8 ]
+        %tmp.2 = getv ? :WatchFace;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_18_26_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 23; ]
+    function onLayout(dc as Dc) as Void {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_23_40_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 27 8 ]
+        %tmp.1 = getm $.Toybox.Application;
+        %tmp.2 = getv %tmp.1 :Properties;
+        %tmp.3 = getv function %tmp.2 :getValue;
+        %tmp.4 = "ForegroundColor";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        putv self :foregroundColor %tmp.5;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 30 8 ]
+        %tmp.6 = self;
+        %tmp.7 = getv function %tmp.6 :setLayout;
+        %tmp.9 = getv ? :Rez;
+        %tmp.10 = getv %tmp.9 :Layouts;
+        %tmp.11 = getv function %tmp.10 :WatchFace;
+        %tmp.13 = lgetv %dc;
+        %tmp.14 = invoke %tmp.10 %tmp.11(%tmp.13);
+        invoke %tmp.6 %tmp.7(%tmp.14);
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_23_40_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 36; ]
+    function onShow() as Void {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_36_30_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 37 8 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :getHeartrateDisplay;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        %tmp.4 = getv function %tmp.3 :onShow;
+        invoke %tmp.3 %tmp.4();
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 38 8 ]
+        %tmp.5 = self;
+        %tmp.6 = getv function %tmp.5 :getBackground;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        %tmp.8 = getv function %tmp.7 :onShow;
+        invoke %tmp.7 %tmp.8();
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 39 8 ]
+        %tmp.9 = self;
+        %tmp.10 = getv function %tmp.9 :getNotificationCountDisplay;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        %tmp.12 = getv function %tmp.11 :onShow;
+        invoke %tmp.11 %tmp.12();
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_36_30_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 45; ]
+    function onHide() as Void {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_45_30_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 46 8 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :getHeartrateDisplay;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        %tmp.4 = getv function %tmp.3 :onHide;
+        invoke %tmp.3 %tmp.4();
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 47 8 ]
+        %tmp.5 = self;
+        %tmp.6 = getv function %tmp.5 :getBackground;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        %tmp.8 = getv function %tmp.7 :onHide;
+        invoke %tmp.7 %tmp.8();
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 48 8 ]
+        %tmp.9 = self;
+        %tmp.10 = getv function %tmp.9 :getNotificationCountDisplay;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        %tmp.12 = getv function %tmp.11 :onHide;
+        invoke %tmp.11 %tmp.12();
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_45_30_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 51; ]
+    function onSettingsChanged() {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_51_33_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 52 8 ]
+        %tmp.1 = getm $.Toybox.Application;
+        %tmp.2 = getv %tmp.1 :Properties;
+        %tmp.3 = getv function %tmp.2 :getValue;
+        %tmp.4 = "ForegroundColor";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        putv self :foregroundColor %tmp.5;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 53 8 ]
+        %tmp.6 = self;
+        %tmp.7 = getv function %tmp.6 :getHeartrateDisplay;
+        %tmp.8 = invoke %tmp.6 %tmp.7();
+        %tmp.9 = getv function %tmp.8 :onSettingsChanged;
+        invoke %tmp.8 %tmp.9();
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 54 8 ]
+        %tmp.10 = self;
+        %tmp.11 = getv function %tmp.10 :getBackground;
+        %tmp.12 = invoke %tmp.10 %tmp.11();
+        %tmp.13 = getv function %tmp.12 :onSettingsChanged;
+        invoke %tmp.12 %tmp.13();
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 55 8 ]
+        %tmp.14 = self;
+        %tmp.15 = getv function %tmp.14 :getNotificationCountDisplay;
+        %tmp.16 = invoke %tmp.14 %tmp.15();
+        %tmp.17 = getv function %tmp.16 :onSettingsChanged;
+        invoke %tmp.16 %tmp.17();
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 57 8 ]
+        %tmp.18 = getm $.Toybox.WatchUi;
+        %tmp.19 = getv function %tmp.18 :requestUpdate;
+        invoke %tmp.18 %tmp.19();
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_51_33_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 61; ]
+    function onUpdate(dc as Dc) as Void {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_61_40_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 62 8 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :setClockDisplay;
+        invoke %tmp.1 %tmp.2();
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 63 8 ]
+        %tmp.3 = self;
+        %tmp.4 = getv function %tmp.3 :setDateDisplay;
+        invoke %tmp.3 %tmp.4();
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 64 8 ]
+        %tmp.5 = self;
+        %tmp.6 = getv function %tmp.5 :setStepCountDisplay;
+        invoke %tmp.5 %tmp.6();
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 65 8 ]
+        %tmp.7 = self;
+        %tmp.8 = getv function %tmp.7 :setBatteryDisplay;
+        invoke %tmp.7 %tmp.8();
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 68 8 ]
+        %tmp.10 = getv ? :View;
+        %tmp.11 = getv function %tmp.10 :onUpdate;
+        %tmp.13 = lgetv %dc;
+        invoke %tmp.10 %tmp.11(%tmp.13);
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_61_40_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 71; ]
+    private
+    function setClockDisplay() {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_71_39_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 72 8 ]
+        [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_71_39_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_71_39_stop" ]
+        %clockTime.1 = local;
+        %tmp.1 = getm $.Toybox.System;
+        %tmp.2 = getv function %tmp.1 :getClockTime;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %clockTime.1 %tmp.3;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 73 8 ]
+        [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_71_39_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_71_39_stop" ]
+        %timeStringHours.2 = local;
+        %tmp.4 = self;
+        %tmp.5 = getv function %tmp.4 :getTimeStringHours;
+        %tmp.7 = lgetv %clockTime.1;
+        %tmp.8 = invoke %tmp.4 %tmp.5(%tmp.7);
+        lputv %timeStringHours.2 %tmp.8;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 74 8 ]
+        [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_71_39_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_71_39_stop" ]
+        %timeStringMinutes.3 = local;
+        %tmp.9 = self;
+        %tmp.10 = getv function %tmp.9 :getTimeStringMinutes;
+        %tmp.12 = lgetv %clockTime.1;
+        %tmp.13 = invoke %tmp.9 %tmp.10(%tmp.12);
+        lputv %timeStringMinutes.3 %tmp.13;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 77 8 ]
+        [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_71_39_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_71_39_stop" ]
+        %timeViewHours.4 = local;
+        %tmp.15 = getv ? :View;
+        %tmp.16 = getv function %tmp.15 :findDrawableById;
+        %tmp.17 = "TimeLabelHours";
+        %tmp.18 = invoke %tmp.15 %tmp.16(%tmp.17);
+        %tmp.19 = as %tmp.18 Text;
+        lputv %timeViewHours.4 %tmp.19;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 78 8 ]
+        [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_71_39_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_71_39_stop" ]
+        %timeViewMinutes.5 = local;
+        %tmp.21 = getv ? :View;
+        %tmp.22 = getv function %tmp.21 :findDrawableById;
+        %tmp.23 = "TimeLabelMinutes";
+        %tmp.24 = invoke %tmp.21 %tmp.22(%tmp.23);
+        %tmp.25 = as %tmp.24 Text;
+        lputv %timeViewMinutes.5 %tmp.25;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 80 8 ]
+        %tmp.26 = lgetv %timeViewHours.4;
+        %tmp.27 = getv function %tmp.26 :setColor;
+        %tmp.29 = getv ? :foregroundColor;
+        invoke %tmp.26 %tmp.27(%tmp.29);
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 81 8 ]
+        %tmp.30 = lgetv %timeViewMinutes.5;
+        %tmp.31 = getv function %tmp.30 :setColor;
+        %tmp.33 = getv ? :foregroundColor;
+        invoke %tmp.30 %tmp.31(%tmp.33);
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 82 8 ]
+        %tmp.34 = lgetv %timeViewHours.4;
+        %tmp.35 = getv function %tmp.34 :setText;
+        %tmp.37 = lgetv %timeStringHours.2;
+        invoke %tmp.34 %tmp.35(%tmp.37);
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 83 8 ]
+        %tmp.38 = lgetv %timeViewMinutes.5;
+        %tmp.39 = getv function %tmp.38 :setText;
+        %tmp.41 = lgetv %timeStringMinutes.3;
+        invoke %tmp.38 %tmp.39(%tmp.41);
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_71_39_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 86; ]
+    private
+    function setDateDisplay() {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_86_38_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 87 8 ]
+        [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_86_38_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_86_38_stop" ]
+        %dateLabel.1 = local;
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :getDateLabel;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %dateLabel.1 %tmp.3;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 89 8 ]
+        [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_86_38_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_86_38_stop" ]
+        %today.2 = local;
+        %tmp.4 = getm $.Toybox.Time.Gregorian;
+        %tmp.5 = getv function %tmp.4 :info;
+        %tmp.6 = getm $.Toybox.Time;
+        %tmp.7 = getv function %tmp.6 :now;
+        %tmp.8 = invoke %tmp.6 %tmp.7();
+        %tmp.9 = getm $.Toybox.Time;
+        %tmp.10 = getv %tmp.9 :FORMAT_SHORT;
+        %tmp.11 = invoke %tmp.4 %tmp.5(%tmp.8, %tmp.10);
+        lputv %today.2 %tmp.11;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 90 8 ]
+        [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_86_38_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_86_38_stop" ]
+        %dateString.3 = local;
+        %tmp.12 = getm $.Toybox.Lang;
+        %tmp.13 = getv function %tmp.12 :format;
+        %tmp.14 = "$1$\n$2$";
+        %tmp.15 = newa 2;
+        %tmp.16 = lgetv %today.2;
+        %tmp.17 = getv %tmp.16 :month;
+        %tmp.18 = getv function %tmp.17 :format;
+        %tmp.19 = "%02d";
+        %tmp.20 = invoke %tmp.17 %tmp.18(%tmp.19);
+        %tmp.21 = dup %tmp.15;
+        %tmp.22 = aputv %tmp.21 0 %tmp.20;
+        %tmp.23 = lgetv %today.2;
+        %tmp.24 = getv %tmp.23 :day;
+        %tmp.25 = getv function %tmp.24 :format;
+        %tmp.26 = "%02d";
+        %tmp.27 = invoke %tmp.24 %tmp.25(%tmp.26);
+        %tmp.28 = dup %tmp.22;
+        %tmp.29 = aputv %tmp.28 1 %tmp.27;
+        %tmp.30 = invoke %tmp.12 %tmp.13(%tmp.14, %tmp.29);
+        lputv %dateString.3 %tmp.30;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 93 8 ]
+        %tmp.31 = lgetv %dateLabel.1;
+        %tmp.32 = getv function %tmp.31 :setText;
+        %tmp.34 = lgetv %dateString.3;
+        invoke %tmp.31 %tmp.32(%tmp.34);
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_86_38_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 96; ]
+    private
+    function setStepCountDisplay() {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_96_43_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 97 8 ]
+        [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_96_43_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_96_43_stop" ]
+        %stepDisplay.1 = local;
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :getStepCountDisplay;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %stepDisplay.1 %tmp.3;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 98 8 ]
+        [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_96_43_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_96_43_stop" ]
+        %stepLabel.2 = local;
+        %tmp.4 = self;
+        %tmp.5 = getv function %tmp.4 :getStepCountLabel;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        lputv %stepLabel.2 %tmp.6;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 100 8 ]
+        [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_96_43_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_96_43_stop" ]
+        %info.3 = local;
+        %tmp.8 = getv ? :ActivityMonitor;
+        %tmp.9 = getv function %tmp.8 :getInfo;
+        %tmp.10 = invoke %tmp.8 %tmp.9();
+        lputv %info.3 %tmp.10;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 101 8 ]
+        [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_96_43_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_96_43_stop" ]
+        %steps.4 = local;
+        %tmp.11 = lgetv %info.3;
+        %tmp.12 = getv %tmp.11 :steps;
+        %tmp.13 = as %tmp.12 Number or Null;
+        lputv %steps.4 %tmp.13;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 102 8 ]
+        [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_96_43_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_96_43_stop" ]
+        %stepGoal.5 = local;
+        %tmp.14 = lgetv %info.3;
+        %tmp.15 = getv %tmp.14 :stepGoal;
+        %tmp.16 = as %tmp.15 Number or Null;
+        lputv %stepGoal.5 %tmp.16;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 104 8 ]
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_104_8_if_stmt:
+        %tmp.18 = lgetv %steps.4;
+        %tmp.19 = null;
+        %tmp.20 = eq %tmp.18 %tmp.19;
+        bf %tmp.20 @D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_104_8_if_end;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_104_8_if_true:
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_104_27_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 105 12 ]
+        %tmp.21 = 0;
+        lputv %steps.4 %tmp.21;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_104_27_stop:
+        goto @D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_104_8_if_end;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_104_8_if_end:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 107 8 ]
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_107_8_if_stmt:
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_107_12_begin:
+        %tmp.23 = lgetv %stepGoal.5;
+        %tmp.24 = null;
+        %tmp.25 = eq %tmp.23 %tmp.24;
+        %tmp.26 = dup %tmp.25;
+        bt %tmp.26 @D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_107_32_end;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_107_32_false:
+        %tmp.28 = lgetv %stepGoal.5;
+        %tmp.29 = as %tmp.28 { (!Null) };
+        %tmp.30 = 0;
+        %tmp.31 = eq %tmp.29 %tmp.30;
+        %tmp.32 = or %tmp.25 %tmp.31;
+        push %tmp.32;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_107_32_end:
+        %tmp.33 = phi [%tmp.26 @D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_107_12_begin] [%tmp.32 @D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_107_32_false] [%tmp.33 @D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_107_32_end];
+        bf %tmp.33 @D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_107_8_if_end;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_107_8_if_true:
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_107_47_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 108 12 ]
+        %tmp.34 = 1;
+        lputv %stepGoal.5 %tmp.34;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_107_47_stop:
+        goto @D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_107_8_if_end;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_107_8_if_end:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 111 8 ]
+        [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_96_43_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_96_43_stop" ]
+        %stepPercent.6 = local;
+        %tmp.35 = lgetv %steps.4;
+        %tmp.36 = getv function %tmp.35 :toFloat;
+        %tmp.37 = invoke %tmp.35 %tmp.36();
+        %tmp.39 = lgetv %stepGoal.5;
+        %tmp.40 = div %tmp.37 %tmp.39;
+        lputv %stepPercent.6 %tmp.40;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 113 8 ]
+        [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_96_43_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_96_43_stop" ]
+        %stepFormat.7 = local;
+        %tmp.41 = "$1$";
+        lputv %stepFormat.7 %tmp.41;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 114 8 ]
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_114_8_if_stmt:
+        %tmp.43 = lgetv %steps.4;
+        %tmp.44 = 999;
+        %tmp.45 = gt %tmp.43 %tmp.44;
+        bf %tmp.45 @D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_114_8_if_end;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_114_8_if_true:
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_114_25_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 115 12 ]
+        %tmp.46 = "$1$k";
+        lputv %stepFormat.7 %tmp.46;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 116 12 ]
+        %tmp.47 = lgetv %steps.4;
+        %tmp.48 = 0.001;
+        %tmp.49 = mul %tmp.47 %tmp.48;
+        lputv %steps.4 %tmp.49;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_114_25_stop:
+        goto @D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_114_8_if_end;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_114_8_if_end:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 119 8 ]
+        %tmp.50 = lgetv %stepDisplay.1;
+        %tmp.51 = getv function %tmp.50 :setPercent;
+        %tmp.53 = lgetv %stepPercent.6;
+        invoke %tmp.50 %tmp.51(%tmp.53);
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 120 8 ]
+        %tmp.54 = lgetv %stepLabel.2;
+        %tmp.55 = getv function %tmp.54 :setColor;
+        %tmp.57 = getv ? :foregroundColor;
+        invoke %tmp.54 %tmp.55(%tmp.57);
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 121 8 ]
+        %tmp.58 = lgetv %stepLabel.2;
+        %tmp.59 = getv function %tmp.58 :setText;
+        %tmp.60 = getm $.Toybox.Lang;
+        %tmp.61 = getv function %tmp.60 :format;
+        %tmp.63 = lgetv %stepFormat.7;
+        %tmp.64 = newa 1;
+        %tmp.65 = lgetv %steps.4;
+        %tmp.66 = getv function %tmp.65 :format;
+        %tmp.67 = "%d";
+        %tmp.68 = invoke %tmp.65 %tmp.66(%tmp.67);
+        %tmp.69 = dup %tmp.64;
+        %tmp.70 = aputv %tmp.69 0 %tmp.68;
+        %tmp.71 = invoke %tmp.60 %tmp.61(%tmp.63, %tmp.70);
+        invoke %tmp.58 %tmp.59(%tmp.71);
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_96_43_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 125; ]
+    private
+    function setBatteryDisplay() as Void {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_125_49_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 126 8 ]
+        [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_125_49_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_125_49_stop" ]
+        %batteryDisplay.1 = local;
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :getBatteryDisplay;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %batteryDisplay.1 %tmp.3;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 127 8 ]
+        [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_125_49_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_125_49_stop" ]
+        %batteryLabel.2 = local;
+        %tmp.4 = self;
+        %tmp.5 = getv function %tmp.4 :getBatteryLabel;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        lputv %batteryLabel.2 %tmp.6;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 129 8 ]
+        [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_125_49_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_125_49_stop" ]
+        %stats.3 = local;
+        %tmp.7 = getm $.Toybox.System;
+        %tmp.8 = getv function %tmp.7 :getSystemStats;
+        %tmp.9 = invoke %tmp.7 %tmp.8();
+        lputv %stats.3 %tmp.9;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 130 8 ]
+        [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_125_49_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_125_49_stop" ]
+        %batteryLevel.4 = local;
+        %tmp.10 = lgetv %stats.3;
+        %tmp.11 = getv %tmp.10 :battery;
+        lputv %batteryLevel.4 %tmp.11;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 132 8 ]
+        %tmp.12 = lgetv %batteryDisplay.1;
+        %tmp.13 = getv function %tmp.12 :setPercent;
+        %tmp.15 = lgetv %batteryLevel.4;
+        %tmp.16 = 0.01;
+        %tmp.17 = mul %tmp.15 %tmp.16;
+        invoke %tmp.12 %tmp.13(%tmp.17);
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 133 8 ]
+        %tmp.18 = lgetv %batteryLabel.2;
+        %tmp.19 = getv function %tmp.18 :setColor;
+        %tmp.21 = getv ? :foregroundColor;
+        invoke %tmp.18 %tmp.19(%tmp.21);
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 134 8 ]
+        %tmp.22 = lgetv %batteryLabel.2;
+        %tmp.23 = getv function %tmp.22 :setText;
+        %tmp.24 = lgetv %batteryLevel.4;
+        %tmp.25 = getv function %tmp.24 :format;
+        %tmp.26 = "%d";
+        %tmp.27 = invoke %tmp.24 %tmp.25(%tmp.26);
+        invoke %tmp.22 %tmp.23(%tmp.27);
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_125_49_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 137; ]
+    private
+    function getHeartrateDisplay() {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_137_43_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 138 5 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :findDrawableById;
+        %tmp.4 = "HeartrateDisplay";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        ret %tmp.5;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_137_43_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 141; ]
+    private
+    function getStepCountDisplay() {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_141_40_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 142 2 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :findDrawableById;
+        %tmp.4 = "StepCountDisplay";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        ret %tmp.5;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_141_40_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 145; ]
+    private
+    function getStepCountLabel() {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_145_41_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 146 2 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :findDrawableById;
+        %tmp.4 = "StepCountLabel";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        ret %tmp.5;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_145_41_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 149; ]
+    private
+    function getHeadingLabel() {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_149_39_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 150 2 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :findDrawableById;
+        %tmp.4 = "HeadingLabel";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        ret %tmp.5;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_149_39_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 153; ]
+    private
+    function getBackground() {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_153_37_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 154 5 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :findDrawableById;
+        %tmp.4 = "Background";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        ret %tmp.5;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_153_37_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 157; ]
+    private
+    function getNotificationCountDisplay() {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_157_51_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 158 5 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :findDrawableById;
+        %tmp.4 = "NotificationCountDisplay";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        ret %tmp.5;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_157_51_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 161; ]
+    private
+    function getDateLabel() {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_161_36_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 162 2 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :findDrawableById;
+        %tmp.4 = "DateLabel";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        ret %tmp.5;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_161_36_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 165; ]
+    private
+    function getBatteryDisplay() {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_165_41_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 166 2 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :findDrawableById;
+        %tmp.4 = "BatteryDisplay";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        ret %tmp.5;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_165_41_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 169; ]
+    private
+    function getBatteryLabel() {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_169_39_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 170 2 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :findDrawableById;
+        %tmp.4 = "BatteryLabel";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        ret %tmp.5;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_169_39_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 173; ]
+    private
+    function getTimeStringHours(clockTime) as String {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_173_61_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 175 8 ]
+        [ "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_173_61_start" "D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_173_61_stop" ]
+        %hours.1 = local;
+        %tmp.1 = lgetv %clockTime;
+        %tmp.2 = getv %tmp.1 :hour;
+        lputv %hours.1 %tmp.2;
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 176 8 ]
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_176_8_if_stmt:
+        %tmp.3 = getm $.Toybox.System;
+        %tmp.4 = getv function %tmp.3 :getDeviceSettings;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        %tmp.6 = getv %tmp.5 :is24Hour;
+        %tmp.7 = not %tmp.6;
+        bf %tmp.7 @D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_176_8_if_end;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_176_8_if_true:
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_176_50_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 177 12 ]
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_177_12_if_stmt:
+        %tmp.9 = lgetv %hours.1;
+        %tmp.10 = 12;
+        %tmp.11 = gt %tmp.9 %tmp.10;
+        bf %tmp.11 @D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_177_12_if_end;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_177_12_if_true:
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_177_28_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 178 16 ]
+        %tmp.13 = lgetv %hours.1;
+        %tmp.14 = 12;
+        %tmp.15 = sub %tmp.13 %tmp.14;
+        lputv %hours.1 %tmp.15;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_177_28_stop:
+        goto @D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_177_12_if_end;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_177_12_if_end:
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_176_50_stop:
+        goto @D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_176_8_if_end;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_176_8_if_end:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 181 8 ]
+        %tmp.16 = getm $.Toybox.Lang;
+        %tmp.17 = getv function %tmp.16 :format;
+        %tmp.18 = "$1$";
+        %tmp.19 = newa 1;
+        %tmp.21 = lgetv %hours.1;
+        %tmp.22 = dup %tmp.19;
+        %tmp.23 = aputv %tmp.22 0 %tmp.21;
+        %tmp.24 = invoke %tmp.16 %tmp.17(%tmp.18, %tmp.23);
+        ret %tmp.24;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_173_61_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 184; ]
+    private
+    function getTimeStringMinutes(clockTime) as String {
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_184_63_start:
+[ "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc" 186 8 ]
+        %tmp.1 = lgetv %clockTime;
+        %tmp.2 = getv %tmp.1 :min;
+        %tmp.3 = getv function %tmp.2 :format;
+        %tmp.4 = "%02d";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        ret %tmp.5;
+D_Development_Gitbit_Watchfaces_Bean_BeanWatch_source_BeanWatchView_mc_184_63_stop:
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 191; ]
+    function onExitSleep() as Void {
+    }
+    [ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 195; ]
+    function onEnterSleep() as Void {
+    }
+}
+[ @file = "D:\Development\Gitbit\Watchfaces\Bean\BeanWatch\source\BeanWatchView.mc"; @line = 1; ]
+<init> {
+}
